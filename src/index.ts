@@ -80,6 +80,7 @@ const handleOtherWorks = async (request: Request, _env: Env): Promise<Response> 
         case '25-hour-vacation':
         case 'vacances':
             return Response.redirect(VACANCES_URL, 307);
+        case 'anthology':
         case 'ichikawa-haruko-sakuhinshuu':
         case 'sakuhinshuu':
             return Response.redirect(SAKUHINSHUU_URL, 307);
