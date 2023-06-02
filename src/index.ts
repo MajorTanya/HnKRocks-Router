@@ -8,7 +8,7 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
-import { Request, Router } from 'itty-router';
+import { IRequest, Router } from 'itty-router';
 
 const ZERO_DECIMAL_PATTERN = /\d+\.0/;
 
@@ -39,7 +39,7 @@ const router = Router();
 
 const redirectToHnKTitlePage = () => Response.redirect(HNK_TITLE_URL, 301);
 
-const handleChapterNo = async (request: Request, env: Env): Promise<Response> => {
+const handleChapterNo = async (request: IRequest, env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const chapterParam = request.params.chapterNo;
     const parsed = parseFloat(chapterParam);
@@ -51,12 +51,12 @@ const handleChapterNo = async (request: Request, env: Env): Promise<Response> =>
     return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
 };
 
-const handleLatestChapter = async (request: Request, env: Env): Promise<Response> => {
+const handleLatestChapter = async (request: IRequest, env: Env): Promise<Response> => {
     const url = await env.ChapterToMDLink.get('latest');
     return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
 };
 
-const handleOtherWorks = async (request: Request, _env: Env): Promise<Response> => {
+const handleOtherWorks = async (request: IRequest, _env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const workParam = request.params.work;
     if (workParam === '') return redirectToHnKTitlePage();
