@@ -2,7 +2,8 @@
   "name": "hnkrocks-chapter-router",
   "version": "2.0.1",
   "dependencies": {
-    "itty-router": "^4.0.9"
+    "itty-router": "^4.0.9",
+    "reflare": "^1.1.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230404.0",

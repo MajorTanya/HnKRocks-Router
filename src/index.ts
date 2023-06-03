@@ -9,6 +9,7 @@
  */
 
 import { IRequest, Router } from 'itty-router';
+import useReflare from 'reflare';
 
 const ZERO_DECIMAL_PATTERN = /\d+\.0/;
 
@@ -38,6 +39,20 @@ const router = Router();
 // Handlers
 
 const redirectToHnKTitlePage = () => Response.redirect(HNK_TITLE_URL, 301);
+
+const handleExtraPages = async (request: IRequest, _env: Env) => {
+    const reflare = await useReflare();
+
+    reflare.push({
+        path: '/*',
+        upstream: {
+            domain: 'hnkrocks-extra-pages.pages.dev',
+            protocol: 'https'
+        }
+    });
+
+    return reflare.handle(request);
+};
 
 const handleChapterNo = async (request: IRequest, env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
@@ -120,6 +135,9 @@ router.get('/c(hapters?)?/:chapterNo', handleChapterNo);
 
 router.get('/minimalist', () => Response.redirect(HNK_MINIMALIST_URL, 307));
 router.get('/colou?r(ed)?', () => Response.redirect(HNK_COLOURED_URL, 307));
+
+router.get('/next', handleExtraPages);
+router.get('/since', handleExtraPages);
 
 router.all('*', redirectToHnKTitlePage);
 
