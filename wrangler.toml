@@ -1,4 +1,4 @@
-name = "hnkrocks"
+name = "hnkrocks-router"
 main = "src/index.ts"
 compatibility_date = "2022-12-01"
 kv_namespaces = [
