@@ -1,0 +1,27 @@
+name: Deploy to Cloudflare
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js v16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Publish hnkrocks-router to Cloudflare
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
