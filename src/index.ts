@@ -46,7 +46,7 @@ const handleExtraPages = async (request: IRequest, _env: Env) => {
     reflare.push({
         path: '/*',
         upstream: {
-            domain: 'hnkrocks-extra-pages.pages.dev',
+            domain: 'hnkrocks-extra-pages-9i8.pages.dev',
             protocol: 'https'
         }
     });
