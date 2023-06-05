@@ -138,7 +138,7 @@ router.get('/colou?r(ed)?', () => Response.redirect(HNK_COLOURED_URL, 307));
 
 router.get('/next', handleExtraPages);
 router.get('/since', handleExtraPages);
-router.get('/_app', handleExtraPages);
+router.get('/_app/*', handleExtraPages);
 
 router.all('*', redirectToHnKTitlePage);
 
