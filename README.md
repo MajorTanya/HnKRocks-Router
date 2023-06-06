@@ -45,7 +45,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
   - Parameters: `[work]` - titles of works as described below.
   - Redirects to other works by Haruko Ichikawa. Not all links redirect to MangaDex, as not all works are available there.
   ### Available works:
-  _All these work URLs are relative to `https://hnk.rocks/other` or `https//:hnk.rocks/etc`._
+  _All these work URLs are relative to `https://hnk.rocks/other` or `https://hnk.rocks/etc`._
 
   *Houseki no Kuni-related works:*
     - `/artbook` | `/pseudomorph` | `/pseudomorph-of-love`
