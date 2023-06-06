@@ -1,6 +1,6 @@
 name = "hnkrocks-router"
 main = "src/index.ts"
-compatibility_date = "2022-12-01"
+compatibility_date = "2023-05-18"
 kv_namespaces = [
     { binding = "ChapterToMDLink", preview_id = "c5b18e73c5a74d779d3d757d01d732f7", id = "0c5e38182c574232bf51eca1dc577298" }
 ]
