@@ -3,7 +3,7 @@
   "version": "2.1.0",
   "dependencies": {
     "itty-router": "^4.0.11",
-    "reflare": "^1.1.4"
+    "reflare": "^1.1.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230518.0",
