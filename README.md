@@ -41,6 +41,13 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 - `/feedback`
   - Redirects to a [Google Form to provide feedback and bug reports about HnK.rocks](https://forms.gle/QRGGriFizperPnZM6).
 
+- `/fandub` | `/fandub/playlist`
+  - Redirects to the YouTube Playlist for the Houseki no Kuni Fandub Project.
+
+- `/fandub/e/[number]` | `/fandub/episode/[number]` | `/fandub/episodes/[number]`
+  - Parameters: `[number]` - integers (don't add the brackets)
+  - Redirects to the YouTube video for the Fandub episode in question. If the episode doesn't exist, redirects to the YouTube Playlist for the Fandub Project.
+
 - `/other/[work]` | `/etc/[work]`
   - Parameters: `[work]` - titles of works as described below.
   - Redirects to other works by Haruko Ichikawa. Not all links redirect to MangaDex, as not all works are available there.

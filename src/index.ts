@@ -34,11 +34,17 @@ const FEEDBACK_URL = 'https://forms.gle/QRGGriFizperPnZM6';
 const SUBMISSION_LOGIN_URL = 'https://new.hnk.rocks/';
 const USELESS_PHOS_URL = 'https://cdn.discordapp.com/emojis/676275233702805515.webp?quality=lossless';
 
+// Fandub
+const FANDUB_PLAYLIST = 'https://www.youtube.com/playlist?list=PLqmueHYBwQkV_1KkdMlllDjhuUNqiaHGv';
+const FANDUB_EP_01 = 'https://www.youtube.com/watch?v=qL2tXjJ5AMg';
+const FANDUB_EP_02 = 'https://www.youtube.com/watch?v=9DIzmyE8EaM';
+
 const router = Router();
 
 // Handlers
 
 const redirectToHnKTitlePage = () => Response.redirect(HNK_TITLE_URL, 301);
+const redirectToFandubPlaylist = () => Response.redirect(FANDUB_PLAYLIST);
 
 const handleExtraPages = async (request: IRequest, _env: Env) => {
     const reflare = await useReflare();
@@ -64,6 +70,22 @@ const handleChapterNo = async (request: IRequest, env: Env): Promise<Response> =
     const chapter = ZERO_DECIMAL_PATTERN.test(fixed) ? fixed.slice(0, fixed.indexOf('.')) : fixed;
     const url = await env.ChapterToMDLink.get(chapter);
     return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
+};
+
+const handleFandubEpisodeNo = async (request: IRequest, env: Env): Promise<Response> => {
+    if (request.params == undefined) return redirectToFandubPlaylist();
+    const episodeParam = request.params.episodeNo;
+    const parsed = parseInt(episodeParam);
+    if (Number.isNaN(parsed)) return redirectToFandubPlaylist();
+
+    switch (parsed) {
+        case 1:
+            return Response.redirect(FANDUB_EP_01);
+        case 2:
+            return Response.redirect(FANDUB_EP_02);
+        default:
+            return redirectToFandubPlaylist();
+    }
 };
 
 const handleLatestChapter = async (request: IRequest, env: Env): Promise<Response> => {
@@ -139,6 +161,11 @@ router.get('/colou?r(ed)?', () => Response.redirect(HNK_COLOURED_URL, 307));
 router.get('/next', handleExtraPages);
 router.get('/since', handleExtraPages);
 router.get('/_app/*', handleExtraPages);
+
+router.get('/fandub', redirectToFandubPlaylist);
+router.get('/fandub/playlist', redirectToFandubPlaylist);
+router.get('/fandub/:episodeNo', handleFandubEpisodeNo);
+router.get('/fandub/e(pisodes?)?/:episodeNo', handleFandubEpisodeNo);
 
 router.all('*', redirectToHnKTitlePage);
 
