@@ -11,10 +11,10 @@ jobs:
     name: Deploy
     steps:
       - uses: actions/checkout@v3
-      - name: Setup Node.js v16
+      - name: Setup Node.js v18
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
           cache: "npm"
 
       - name: Install dependencies
