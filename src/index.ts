@@ -164,8 +164,7 @@ router.get('/_app/*', handleExtraPages);
 
 router.get('/fandub', redirectToFandubPlaylist);
 router.get('/fandub/playlist', redirectToFandubPlaylist);
-router.get('/fandub/:episodeNo', handleFandubEpisodeNo);
-router.get('/fandub/e(pisodes?)?/:episodeNo', handleFandubEpisodeNo);
+router.get('/fandub(/e(pisodes?)?)?/:episodeNo', handleFandubEpisodeNo);
 
 router.all('*', redirectToHnKTitlePage);
 
