@@ -96,7 +96,12 @@ const handleFandubEpisodeNo = async (request: IRequest): Promise<Response> => {
 };
 
 const handleLatestChapter = async (request: IRequest, env: Env): Promise<Response> => {
-    const url = await env.ChapterToMDLink.get('latest');
+    let url = await env.ChapterToMDLink.get('latest');
+    if (request.params != undefined && 'pageNo' in request.params) {
+        const pageParam = request.params.pageNo;
+        const pageParsed = parseInt(pageParam);
+        url = Number.isNaN(pageParsed) || url === null ? url : `${url}/${pageParsed}`;
+    }
     return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
 };
 
@@ -156,7 +161,7 @@ router.get('/saegusa(-sensei)?', () => Response.redirect('https://hnk.rocks/othe
 
 router.get('/(other|etc)/:work', handleOtherWorks);
 
-router.get('/(latest|new(est)?)', handleLatestChapter);
+router.get('/(latest|new(est)?)(/p(ages?)?/:pageNo)?', handleLatestChapter);
 
 router.get('/c(hapters?)?/:chapterNo(/p(ages?)?/:pageNo)?', handleChapterNo);
 

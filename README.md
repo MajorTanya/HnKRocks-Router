@@ -27,6 +27,11 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 
 - `/latest` | `/newest` | `/new`
   - Redirects to the latest released chapter as scanlated by the MangaDex user Tissal.
+  - Subdomains:
+    - `/p/[pageNumber]` | `/page/[pageNumber]` | `/pages/[pageNumber]`
+      - Parameters:
+        - `[pageNumber]` - integers (don't add the brackets)
+      - Redirects to the MangaDex reader at the given page for the latest released chapter as scanlated by the MangaDex user Tissal. If the page doesn't exist, MangaDex will display the first page by default.
 
 - `/next`
   - Provides a countdown to the (estimated) next chapter release. The exact hours, minutes, and seconds aren't perfectly accurate, but give a broad picture.
