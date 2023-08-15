@@ -12,8 +12,18 @@ _All routes are relative to the base URL `https://hnk.rocks`._
   - Redirects to the MangaDex title page for [Houseki no Kuni](https://mangadex.org/title/cade38b7-64c4-4a29-8e3c-8c283291d6c6/houseki-no-kuni).
 
 - `/c/[number]` | `/chapter/[number]` | `/chapters/[number]`
-  - Parameters: `[number]` - integers or decimals (don't add the brackets)
-  - Redirect to the MangaDex reader for the chapter in question. If the chapter doesn't exists, redirects to the MangaDex title page for Houseki no Kuni.
+  - Parameters:
+    - `[number]` - integers or decimals (don't add the brackets)
+  - Redirects to the MangaDex reader for the chapter in question. If the chapter doesn't exist, redirects to the MangaDex title page for Houseki no Kuni.
+  - Example: [https://hnk.rocks/chapter/1](https://hnk.rocks/chapter/1)
+
+  - Subdomains:
+    - `/p/[pageNumber]` | `/page/[pageNumber]` | `/pages/[pageNumber]`
+      - Parameters:
+        - `[pageNumber]` - integers (don't add the brackets)
+      - Redirects to the MangaDex reader at the given page for the chapter in question. If the chapter doesn't exist, redirects to the MangaDex title page for Houseki no Kuni. If the page doesn't exist, MangaDex will display the first page by default.
+      - Example: [https://hnk.rocks/chapter/1/page/2](https://hnk.rocks/chapter/1/page/2)
+      
 
 - `/latest` | `/newest` | `/new`
   - Redirects to the latest released chapter as scanlated by the MangaDex user Tissal.
@@ -45,11 +55,13 @@ _All routes are relative to the base URL `https://hnk.rocks`._
   - Redirects to the YouTube Playlist for the Houseki no Kuni Fandub Project.
 
 - `/fandub/e/[number]` | `/fandub/episode/[number]` | `/fandub/episodes/[number]`
-  - Parameters: `[number]` - integers (don't add the brackets)
+  - Parameters:
+    - `[number]` - integers (don't add the brackets)
   - Redirects to the YouTube video for the Fandub episode in question. If the episode doesn't exist, redirects to the YouTube Playlist for the Fandub Project.
 
 - `/other/[work]` | `/etc/[work]`
-  - Parameters: `[work]` - titles of works as described below.
+  - Parameters:
+    - `[work]` - titles of works as described below.
   - Redirects to other works by Haruko Ichikawa. Not all links redirect to MangaDex, as not all works are available there.
   ### Available works:
   _All these work URLs are relative to `https://hnk.rocks/other` or `https://hnk.rocks/etc`._

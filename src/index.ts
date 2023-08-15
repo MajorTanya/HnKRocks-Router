@@ -63,12 +63,19 @@ const handleExtraPages = async (request: IRequest, _env: Env) => {
 const handleChapterNo = async (request: IRequest, env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const chapterParam = request.params.chapterNo;
-    const parsed = parseFloat(chapterParam);
-    if (Number.isNaN(parsed)) return redirectToHnKTitlePage();
+    const chapterParsed = parseFloat(chapterParam);
+    if (Number.isNaN(chapterParsed)) return redirectToHnKTitlePage();
 
-    const fixed = parsed.toFixed(1);
+    const fixed = chapterParsed.toFixed(1);
     const chapter = ZERO_DECIMAL_PATTERN.test(fixed) ? fixed.slice(0, fixed.indexOf('.')) : fixed;
-    const url = await env.ChapterToMDLink.get(chapter);
+    let url = await env.ChapterToMDLink.get(chapter);
+
+    if ('pageNo' in request.params) {
+        const pageParam = request.params.pageNo;
+        const pageParsed = parseInt(pageParam);
+        url = Number.isNaN(pageParsed) || url === null ? url : `${url}/${pageParsed}`;
+    }
+
     return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
 };
 
@@ -151,7 +158,7 @@ router.get('/(other|etc)/:work', handleOtherWorks);
 
 router.get('/(latest|new(est)?)', handleLatestChapter);
 
-router.get('/c(hapters?)?/:chapterNo', handleChapterNo);
+router.get('/c(hapters?)?/:chapterNo(/p(ages?)?/:pageNo)?', handleChapterNo);
 
 router.get('/minimalist', () => Response.redirect(HNK_MINIMALIST_URL, 307));
 router.get('/colou?r(ed)?', () => Response.redirect(HNK_COLOURED_URL, 307));
