@@ -149,9 +149,7 @@ router.get('/saegusa(-sensei)?', () => Response.redirect('https://hnk.rocks/othe
 
 router.get('/(other|etc)/:work', handleOtherWorks);
 
-router.get('/latest', handleLatestChapter);
-router.get('/newest', handleLatestChapter);
-router.get('/new', handleLatestChapter);
+router.get('/(latest|new(est)?)', handleLatestChapter);
 
 router.get('/c(hapters?)?/:chapterNo', handleChapterNo);
 
