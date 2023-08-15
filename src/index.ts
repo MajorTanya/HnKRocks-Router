@@ -79,7 +79,7 @@ const handleChapterNo = async (request: IRequest, env: Env): Promise<Response> =
     return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
 };
 
-const handleFandubEpisodeNo = async (request: IRequest, env: Env): Promise<Response> => {
+const handleFandubEpisodeNo = async (request: IRequest): Promise<Response> => {
     if (request.params == undefined) return redirectToFandubPlaylist();
     const episodeParam = request.params.episodeNo;
     const parsed = parseInt(episodeParam);
