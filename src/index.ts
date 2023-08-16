@@ -46,7 +46,7 @@ const router = Router();
 const redirectToHnKTitlePage = () => Response.redirect(HNK_TITLE_URL, 301);
 const redirectToFandubPlaylist = () => Response.redirect(FANDUB_PLAYLIST);
 
-const handleExtraPages = async (request: IRequest, _env: Env) => {
+const handleExtraPages = async (request: IRequest): Promise<Response> => {
     const reflare = await useReflare();
 
     reflare.push({
@@ -105,7 +105,7 @@ const handleLatestChapter = async (request: IRequest, env: Env): Promise<Respons
     return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
 };
 
-const handleOtherWorks = async (request: IRequest, _env: Env): Promise<Response> => {
+const handleOtherWorks = async (request: IRequest): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const workParam = request.params.work;
     if (workParam === '') return redirectToHnKTitlePage();
