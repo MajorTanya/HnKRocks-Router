@@ -23,7 +23,13 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - `[pageNumber]` - integers (don't add the brackets)
       - Redirects to the MangaDex reader at the given page for the chapter in question. If the chapter doesn't exist, redirects to the MangaDex title page for Houseki no Kuni. If the page doesn't exist, MangaDex will display the first page by default.
       - Example: [https://hnk.rocks/chapter/1/page/2](https://hnk.rocks/chapter/1/page/2)
-      
+
+      - Subdomains:
+        - `/i`
+        - Provides a specially formatted HTML response which will be rendered as an image embed of the specified page number.
+        - *Requires providing a page number.*
+        - Example: [https://hnk.rocks/chapter/1/page/2/i](https://hnk.rocks/chapter/1/page/i)
+
 
 - `/latest` | `/newest` | `/new`
   - Redirects to the latest released chapter as scanlated by the MangaDex user Tissal.
@@ -32,6 +38,12 @@ _All routes are relative to the base URL `https://hnk.rocks`._
       - Parameters:
         - `[pageNumber]` - integers (don't add the brackets)
       - Redirects to the MangaDex reader at the given page for the latest released chapter as scanlated by the MangaDex user Tissal. If the page doesn't exist, MangaDex will display the first page by default.
+
+      - Subdomains:
+        - `/i`
+        - Provides a specially formatted HTML response which will be rendered as an image embed of the specified page number.
+        - *Requires providing a page number.*
+        - Example: [https://hnk.rocks/latest/page/1/i](https://hnk.rocks/latest/page/1/i)
 
 - `/next`
   - Provides a countdown to the (estimated) next chapter release. The exact hours, minutes, and seconds aren't perfectly accurate, but give a broad picture.

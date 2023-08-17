@@ -1,9 +1,16 @@
 name = "hnkrocks-router"
 main = "src/index.ts"
-compatibility_date = "2023-05-18"
+compatibility_date = "2023-08-17"
 kv_namespaces = [
-    { binding = "ChapterToMDLink", preview_id = "c5b18e73c5a74d779d3d757d01d732f7", id = "0c5e38182c574232bf51eca1dc577298" }
+    { binding = "ChapterToMDLink", preview_id = "c5b18e73c5a74d779d3d757d01d732f7", id = "0c5e38182c574232bf51eca1dc577298" },
+    { binding = "ChapterToUploader", preview_id = "b0773eef61aa448687049f0bb9cb0156", id = "7229e8f3147442179f7615caf0c1b634" },
+    { binding = "ExtraPages", preview_id = "aeb7f8828f6c421688a15ca3ba39cbd5", id = "60607381adbc4323be530784a86fcba2" }
 ]
+
+[[r2_buckets]]
+binding = 'ChapterPages'
+bucket_name = 'hnkrocks-chapter-pages'
+preview_bucket_name = 'hnkrocks-chapter-pages'
 
 [vars]
 NODE_VERSION = "20"
