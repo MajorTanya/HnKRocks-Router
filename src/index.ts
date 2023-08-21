@@ -30,6 +30,7 @@ const SAKUHINSHUU_URL = 'https://mangadex.org/title/e89c85d5-3131-4fd8-bf4f-3985
 const VACANCES_URL = 'https://mangadex.org/chapter/39331c1e-4118-450f-b61c-3112e57ae936';
 
 // Extras
+const ABOUT_URL = 'https://majortanya.github.io/HnKRocks-Router/';
 const FEEDBACK_URL = 'https://forms.gle/QRGGriFizperPnZM6';
 const SUBMISSION_LOGIN_URL = 'https://new.hnk.rocks/';
 const USELESS_PHOS_URL = 'https://cdn.discordapp.com/emojis/676275233702805515.webp?quality=lossless';
@@ -216,6 +217,7 @@ const handleOtherWorks = async (request: IRequest): Promise<Response> => {
 router.get('/(submit|login.php)', () => Response.redirect(SUBMISSION_LOGIN_URL, 308));
 router.get('/uselessphos', () => Response.redirect(USELESS_PHOS_URL, 308));
 router.get('/feedback', () => Response.redirect(FEEDBACK_URL, 307));
+router.get('/about', () => Response.redirect(ABOUT_URL, 307));
 
 // shim the old access to Saegusa-Sensei to not break old links
 router.get('/saegusa(-sensei)?', () => Response.redirect('https://hnk.rocks/other/saegusa', 301));

@@ -68,6 +68,9 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 - `/feedback`
   - Redirects to a [Google Form to provide feedback and bug reports about HnK.rocks](https://forms.gle/QRGGriFizperPnZM6).
 
+- `/about`
+  - Redirects to this [Redirection Overview](https://majortanya.github.io/HnKRocks-Router/)
+
 - `/fandub` | `/fandub/playlist`
   - Redirects to the YouTube Playlist for the Houseki no Kuni Fandub Project.
 
