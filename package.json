@@ -6,7 +6,7 @@
     "reflare": "^1.1.5"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230821.0",
+    "@cloudflare/workers-types": "^4.20230904.0",
     "@types/node": "^20.5.7",
     "prettier": "^3.0.2",
     "ts-node": "^10.9.1",
