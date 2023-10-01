@@ -8,7 +8,7 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
-import { IRequest, Router } from 'itty-router';
+import { type IRequestStrict, Router } from 'itty-router/Router';
 import useReflare from 'reflare';
 
 const ZERO_DECIMAL_PATTERN = /\d+\.0/;
@@ -76,7 +76,7 @@ const generateDirectPageResponse = async (chapterNo: number, pageNo: number, env
     </head>`;
 };
 
-const handleExtraPages = async (request: IRequest): Promise<Response> => {
+const handleExtraPages = async (request: IRequestStrict): Promise<Response> => {
     const reflare = await useReflare();
 
     reflare.push({
@@ -90,7 +90,7 @@ const handleExtraPages = async (request: IRequest): Promise<Response> => {
     return reflare.handle(request);
 };
 
-const handleChapterNo = async (request: IRequest, env: Env): Promise<Response> => {
+const handleChapterNo = async (request: IRequestStrict, env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const chapterParam = request.params.chapterNo;
     const chapterParsed = parseFloat(chapterParam);
@@ -109,7 +109,7 @@ const handleChapterNo = async (request: IRequest, env: Env): Promise<Response> =
     return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
 };
 
-const handleDirectPageLink = async (request: IRequest, env: Env): Promise<Response> => {
+const handleDirectPageLink = async (request: IRequestStrict, env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const chapterParam = request.params.chapterNo;
     const chapterParsed = parseFloat(chapterParam);
@@ -125,7 +125,7 @@ const handleDirectPageLink = async (request: IRequest, env: Env): Promise<Respon
     return new Response(response, { headers: { 'content-type': 'text/html;charset=UTF-8' } });
 };
 
-const handleFandubEpisodeNo = async (request: IRequest): Promise<Response> => {
+const handleFandubEpisodeNo = async (request: IRequestStrict): Promise<Response> => {
     if (request.params == undefined) return redirectToFandubPlaylist();
     const episodeParam = request.params.episodeNo;
     const parsed = parseInt(episodeParam);
@@ -141,7 +141,7 @@ const handleFandubEpisodeNo = async (request: IRequest): Promise<Response> => {
     }
 };
 
-const handleLatestChapter = async (request: IRequest, env: Env): Promise<Response> => {
+const handleLatestChapter = async (request: IRequestStrict, env: Env): Promise<Response> => {
     let url = await env.ChapterToMDLink.get('latest');
     if (request.params != undefined && 'pageNo' in request.params) {
         const pageParam = request.params.pageNo;
@@ -151,7 +151,7 @@ const handleLatestChapter = async (request: IRequest, env: Env): Promise<Respons
     return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
 };
 
-const handleLatestChapterDirectPageLink = async (request: IRequest, env: Env): Promise<Response> => {
+const handleLatestChapterDirectPageLink = async (request: IRequestStrict, env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const chapterNo = await env.ExtraPages.get('LAST_CHAPTER_NUMBER');
     const chapterParsed = parseFloat(`${chapterNo}`);
@@ -167,7 +167,7 @@ const handleLatestChapterDirectPageLink = async (request: IRequest, env: Env): P
     return new Response(response, { headers: { 'content-type': 'text/html;charset=UTF-8' } });
 };
 
-const handleOtherWorks = async (request: IRequest): Promise<Response> => {
+const handleOtherWorks = async (request: IRequestStrict): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const workParam = request.params.work;
     if (workParam === '') return redirectToHnKTitlePage();
