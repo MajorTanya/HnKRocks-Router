@@ -107,3 +107,5 @@ _All routes are relative to the base URL `https://hnk.rocks`._
       - Redirects to the MangaDex title page for ["Ouji no Himitsu"](https://mangadex.org/title/07c1eeab-3185-4932-a975-132f2115d6bd/ouji-no-himitsu).
     - | `/saegusa` | `/saegusa-sensei` |
       - Redirects to the MangaDex title page for ["Saegusa-Sensei"](https://mangadex.org/title/4de59a89-a6a8-4059-9ab3-501f7c260223/saegusa-sensei)
+
+hnk.rocks made by `@majortanya` on Discord.
