@@ -11,6 +11,11 @@
 import { type IRequestStrict, Router } from 'itty-router/Router';
 import useReflare from 'reflare';
 
+type OEmbedProvider = { provider_name: string; provider_url: string } | Record<string, never>;
+
+const DEFAULT_JSON_HEADERS = { headers: { 'content-type': 'application/json;charset=UTF-8' } };
+const OEMBED_BASE_RESPONSE = { type: 'link', version: '1.0' };
+const OEMBED_PAGE_DIRECT = 'page_direct';
 const ZERO_DECIMAL_PATTERN = /\d+\.0/;
 
 // Houseki no Kuni
@@ -73,6 +78,7 @@ const generateDirectPageResponse = async (chapterNo: number, pageNo: number, env
         <meta name='twitter:image' content='https://pages.hnk.rocks/${key}'>
         <meta name='twitter:url' content='https://hnk.rocks/c/${chapterNo}/p/${pageNo}'>
         <meta name='twitter:site' content='HnK.Rocks'>
+        <link rel='alternate' type='application/json+oembed' href='https://hnk.rocks/oembed?embed_type=${OEMBED_PAGE_DIRECT}&format=json'>
     </head>`;
 };
 
@@ -167,6 +173,20 @@ const handleLatestChapterDirectPageLink = async (request: IRequestStrict, env: E
     return new Response(response, { headers: { 'content-type': 'text/html;charset=UTF-8' } });
 };
 
+const handleOEmbed = async (request: IRequestStrict): Promise<Response> => {
+    const { embed_type = '' } = request.query;
+
+    const embedType = `${embed_type}`.toLowerCase();
+    let provider: OEmbedProvider = { provider_name: 'HnK.Rocks', provider_url: 'https://hnk.rocks/about' };
+
+    if (embedType === OEMBED_PAGE_DIRECT) provider['provider_name'] = 'HnK.Rocks - Direct Page Embedding';
+    else if (embedType === 'next') provider['provider_name'] = 'HnK.Rocks - Next Chapter Estimate';
+    else if (embedType === 'since') provider['provider_name'] = 'HnK.Rocks - Time Since Last Chapter';
+    else if (embedType === 'submission') provider['provider_name'] = 'HnK.Rocks - New Chapter Submission';
+
+    return new Response(JSON.stringify({ ...OEMBED_BASE_RESPONSE, ...provider }), DEFAULT_JSON_HEADERS);
+};
+
 const handleOtherWorks = async (request: IRequestStrict): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const workParam = request.params.work;
@@ -240,6 +260,8 @@ router.get('/_app/*', handleExtraPages);
 router.get('/fandub', redirectToFandubPlaylist);
 router.get('/fandub/playlist', redirectToFandubPlaylist);
 router.get('/fandub(/e(pisodes?)?)?/:episodeNo', handleFandubEpisodeNo);
+
+router.get('/oembed', handleOEmbed);
 
 router.all('*', redirectToHnKTitlePage);
 
