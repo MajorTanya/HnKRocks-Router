@@ -79,6 +79,9 @@ _All routes are relative to the base URL `https://hnk.rocks`._
     - `[number]` - integers (don't add the brackets)
   - Redirects to the YouTube video for the Fandub episode in question. If the episode doesn't exist, redirects to the YouTube Playlist for the Fandub Project.
 
+- | `/oembed` |
+  - [oEmbed](https://oembed.com/) API to facilitate enhanced embedding of hnk.rocks links.
+
 - | `/other/[work]` | `/etc/[work]` |
   - Parameters:
     - `[work]` - titles of works as described below.
