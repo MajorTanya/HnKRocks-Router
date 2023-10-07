@@ -6,16 +6,16 @@
     "reflare": "^1.1.5"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230922.0",
-    "@types/node": "^20.8.0",
+    "@cloudflare/workers-types": "^4.20231002.0",
+    "@types/node": "^20.8.3",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
-    "wrangler": "^3.10.1"
+    "wrangler": "^3.11.0"
   },
   "private": true,
   "scripts": {
     "start": "wrangler dev",
     "deploy": "wrangler deploy",
-    "format": "prettier --write **/*.{ts,js,json}"
+    "format": "prettier --write src/**/*.{ts,js,json}"
   }
 }
