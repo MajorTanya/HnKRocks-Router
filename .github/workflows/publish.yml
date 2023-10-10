@@ -6,19 +6,11 @@ on:
       - main
 
 jobs:
-  build-and-publish:
+  publish:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: Publish
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Node.js v20
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20.x
-          cache: "npm"
-
-      - name: Install dependencies
-        run: npm install
 
       - name: Publish hnkrocks-router to Cloudflare
         uses: cloudflare/wrangler-action@v3
