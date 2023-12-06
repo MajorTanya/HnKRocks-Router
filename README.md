@@ -59,7 +59,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 Redirects to the MangaDex title page
 for [Houseki no Kuni](https://mangadex.org/title/cade38b7-64c4-4a29-8e3c-8c283291d6c6/houseki-no-kuni).
 
-Example: [https://hnk.rocks](https://hnk.rocks)
+Usage: [https://hnk.rocks](https://hnk.rocks)
 
 ---
 
@@ -189,7 +189,7 @@ accurate, but give a broad picture.
 
 Supports Social Media link previews, so just sending the link to e.g. Discord will show the remaining time.
 
-Example: [https://hnk.rocks/next](https://hnk.rocks/next)
+Usage: [https://hnk.rocks/next](https://hnk.rocks/next)
 
 ---
 
@@ -203,7 +203,7 @@ Example: [https://hnk.rocks/next](https://hnk.rocks/next)
 
 Provides a counter of the time elapsed since the last chapter was released, as scanlated by the MangaDex user Tissal.
 
-Example: [https://hnk.rocks/since](https://hnk.rocks/since)
+Usage: [https://hnk.rocks/since](https://hnk.rocks/since)
 
 ---
 
@@ -252,7 +252,7 @@ Example: [https://hnk.rocks/colour](https://hnk.rocks/colour)
 
 Shows the `uselessphos` Discord Emote.
 
-Example: [https://hnk.rocks/uselessphos](https://hnk.rocks/uselessphos)
+Usage: [https://hnk.rocks/uselessphos](https://hnk.rocks/uselessphos)
 
 ---
 
@@ -266,7 +266,7 @@ Example: [https://hnk.rocks/uselessphos](https://hnk.rocks/uselessphos)
 
 Redirects to a [Google Form to provide feedback and bug reports about HnK.rocks](https://forms.gle/QRGGriFizperPnZM6).
 
-Example: [https://hnk.rocks/feedback](https://hnk.rocks/feedback)
+Usage: [https://hnk.rocks/feedback](https://hnk.rocks/feedback)
 
 ---
 
@@ -280,7 +280,7 @@ Example: [https://hnk.rocks/feedback](https://hnk.rocks/feedback)
 
 Redirects to this [Redirection Overview](https://majortanya.github.io/HnKRocks-Router/).
 
-Example: [https://hnk.rocks/about](https://hnk.rocks/about)
+Usage: [https://hnk.rocks/about](https://hnk.rocks/about)
 
 ---
 
@@ -354,6 +354,8 @@ _All these work URLs are relative to `https://hnk.rocks/other` or `https://hnk.r
 Redirects to the [Houseki no Kuni fandom wiki article](https://houseki-no-kuni.fandom.com/wiki/Pseudomorph_of_Love) with
 the Artbook.
 
+Example: [https://hnk.rocks/other/pseudomorph](https://hnk.rocks/other/pseudomorph)
+
 ---
 
 #### Lorebook (Japanese Volume 11 Extra)
@@ -369,6 +371,8 @@ the Artbook.
 Redirects to the [Imgur post with the machine-translated, non-typeset](https://imgur.com/a/c7Aqh4a) version of the
 Volume 11 Lorebook extra.
 
+Example: [https://hnk.rocks/other/lorebook](https://hnk.rocks/other/lorebook)
+
 ---
 
 #### "Party at the End" (Japanese Volume 12 Extra)
@@ -383,6 +387,8 @@ Volume 11 Lorebook extra.
 
 Redirects to the GitHub repository of the
 [translated Volume 12 Extra book titled "Party at the End"](https://github.com/coconutcastle/HNK_party_at_the_end/blob/master/readfile.md).
+
+Example: [https://hnk.rocks/other/party](https://hnk.rocks/other/party)
 
 ---
 
@@ -402,6 +408,8 @@ Redirects to the MangaDex chapter reader for the story
 ["25 Hour Vacation"](https://mangadex.org/chapter/39331c1e-4118-450f-b61c-3112e57ae936) in the Haruko Ichikawa
 Anthology.
 
+Example: [https://hnk.rocks/other/vacances](https://hnk.rocks/other/vacances)
+
 ---
 
 #### Haruko Ichikawa Anthology
@@ -416,6 +424,8 @@ Anthology.
 
 Redirects to the MangaDex title page for the
 [Haruko Ichikawa Anthology](https://mangadex.org/title/e89c85d5-3131-4fd8-bf4f-3985ef63be83/ichikawa-haruko-sakuhinshuu).
+
+Example: [https://hnk.rocks/other/anthology](https://hnk.rocks/other/anthology)
 
 ---
 
@@ -432,6 +442,8 @@ Redirects to the MangaDex title page for
 ["Moshimo, Tokyo"](https://mangadex.org/title/fa91e632-8556-446e-8227-b6003acab958/moshimo-tokyo), which includes a
 contribution by Haruko Ichikawa.
 
+Example: [https://hnk.rocks/other/moshimo](https://hnk.rocks/other/moshimo)
+
 ---
 
 #### "Mushi to Uta"
@@ -445,6 +457,8 @@ contribution by Haruko Ichikawa.
 
 Redirects to the MangaDex chapter reader for the story
 ["Mushi to Uta"](https://mangadex.org/chapter/ee5d90b2-c9d6-4461-a972-24ef0e7ce9af) in the Haruko Ichikawa Anthology.
+
+Example: [https://hnk.rocks/other/mushi](https://hnk.rocks/other/mushi)
 
 ---
 
@@ -460,6 +474,8 @@ Redirects to the MangaDex chapter reader for the story
 Redirects to the MangaDex title page for
 ["Ouji no Himitsu"](https://mangadex.org/title/07c1eeab-3185-4932-a975-132f2115d6bd/ouji-no-himitsu).
 
+Example: [https://hnk.rocks/other/ouji](https://hnk.rocks/other/ouji)
+
 ---
 
 #### "Saegusa-Sensei"
@@ -473,6 +489,8 @@ Redirects to the MangaDex title page for
 
 Redirects to the MangaDex title page for
 ["Saegusa-Sensei"](https://mangadex.org/title/4de59a89-a6a8-4059-9ab3-501f7c260223/saegusa-sensei).
+
+Example: [https://hnk.rocks/other/saegusa](https://hnk.rocks/other/saegusa)
 
 ---
 
