@@ -7,48 +7,48 @@ MangaDex links, among a few other redirecting services.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Available Routes](#available-routes)
-    - [Houseki no Kuni on MangaDex](#houseki-no-kuni-on-mangadex)
-    - [Chapter Links](#chapter-links)
-        - [Page links for a specific chapter:](#page-links-for-a-specific-chapter)
-            - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page)
-    - [Latest Chapter Link](#latest-chapter-link)
-        - [Page links for latest chapter](#page-links-for-latest-chapter)
-            - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page-1)
-    - [Countdown to the next Chapter](#countdown-to-the-next-chapter)
-    - [Time since the last Chapter release](#time-since-the-last-chapter-release)
-    - [Houseki no Kuni (Minimalist Coloured version)](#houseki-no-kuni-minimalist-coloured-version)
-    - [Houseki no Kuni (Coloured version)](#houseki-no-kuni-coloured-version)
-    - [The `uselessphos` Discord emote](#the-uselessphos-discord-emote)
-    - [Feedback form](#feedback-form)
-    - [Overview over all available Redirects](#overview-over-all-available-redirects)
-    - [Fandub project](#fandub-project)
-        - [Episode links for the Fandub project](#episode-links-for-the-fandub-project)
-    - [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
-        - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
-            - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
-            - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
-            - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
-        - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
-            - ["25 Hour Vacation"](#25-hour-vacation)
-            - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
-            - ["Moshimo, Tokyo"](#moshimo-tokyo)
-            - ["Mushi to Uta"](#mushi-to-uta)
-            - ["Ouji no Himitsu"](#ouji-no-himitsu)
-            - ["Saegusa-Sensei"](#saegusa-sensei)
-    - [Technical & Protected Routes](#technical--protected-routes)
-        - [oEmbed Route](#oembed-route)
-        - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
+- [Houseki no Kuni on MangaDex](#houseki-no-kuni-on-mangadex)
+- [Chapter Links](#chapter-links)
+    - [Page links for a specific chapter:](#page-links-for-a-specific-chapter)
+        - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page)
+- [Latest Chapter Link](#latest-chapter-link)
+    - [Page links for latest chapter](#page-links-for-latest-chapter)
+        - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page-1)
+- [Countdown to the next Chapter](#countdown-to-the-next-chapter)
+- [Time since the last Chapter release](#time-since-the-last-chapter-release)
+- [Houseki no Kuni (Minimalist Coloured version)](#houseki-no-kuni-minimalist-coloured-version)
+- [Houseki no Kuni (Coloured version)](#houseki-no-kuni-coloured-version)
+- [The `uselessphos` Discord emote](#the-uselessphos-discord-emote)
+- [Feedback form](#feedback-form)
+- [Overview over all available Redirects](#overview-over-all-available-redirects)
+- [Fandub project](#fandub-project)
+    - [Episode links for the Fandub project](#episode-links-for-the-fandub-project)
+- [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
+    - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
+        - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
+        - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
+        - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
+    - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
+        - ["25 Hour Vacation"](#25-hour-vacation)
+        - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
+        - ["Moshimo, Tokyo"](#moshimo-tokyo)
+        - ["Mushi to Uta"](#mushi-to-uta)
+        - ["Ouji no Himitsu"](#ouji-no-himitsu)
+        - ["Saegusa-Sensei"](#saegusa-sensei)
+- [Technical & Protected Routes](#technical--protected-routes)
+    - [oEmbed Route](#oembed-route)
+    - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Available Routes
 
 Several Aliases are available for convenience.
 
 _All routes are relative to the base URL `https://hnk.rocks`._
 
-### Houseki no Kuni on MangaDex
+---
+
+## Houseki no Kuni on MangaDex
 
 <table>
     <tr>
@@ -63,7 +63,7 @@ Example: [https://hnk.rocks](https://hnk.rocks)
 
 ---
 
-### Chapter Links
+## Chapter Links
 
 <table>
     <tr>
@@ -84,7 +84,7 @@ Parameters:
 
 Example: [https://hnk.rocks/chapter/1](https://hnk.rocks/chapter/1)
 
-#### Page links for a specific chapter:
+### Page links for a specific chapter:
 
 <table>
     <tr>
@@ -106,7 +106,7 @@ page by default.
 
 Example: [https://hnk.rocks/chapter/1/page/2](https://hnk.rocks/chapter/1/page/2)
 
-##### Page image embed (Discord, etc.) links for a specific page
+#### Page image embed (Discord, etc.) links for a specific page
 
 <table>
     <tr>
@@ -122,7 +122,7 @@ Example: [https://hnk.rocks/chapter/1/page/2/i](https://hnk.rocks/chapter/1/page
 
 ---
 
-### Latest Chapter Link
+## Latest Chapter Link
 
 <table>
     <tr>
@@ -139,7 +139,7 @@ chapter.
 
 Example: [https://hnk.rocks/latest](https://hnk.rocks/latest)
 
-#### Page links for latest chapter
+### Page links for latest chapter
 
 <table>
     <tr>
@@ -160,7 +160,7 @@ Parameters:
 
 Example: [https://hnk.rocks/latest/page/1](https://hnk.rocks/latest/page/1)
 
-##### Page image embed (Discord, etc.) links for a specific page
+#### Page image embed (Discord, etc.) links for a specific page
 
 <table>
     <tr>
@@ -176,7 +176,7 @@ Example: [https://hnk.rocks/latest/page/1/i](https://hnk.rocks/latest/page/1/i)
 
 ---
 
-### Countdown to the next Chapter
+## Countdown to the next Chapter
 
 <table>
     <tr>
@@ -193,7 +193,7 @@ Example: [https://hnk.rocks/next](https://hnk.rocks/next)
 
 ---
 
-### Time since the last Chapter release
+## Time since the last Chapter release
 
 <table>
     <tr>
@@ -207,7 +207,7 @@ Example: [https://hnk.rocks/since](https://hnk.rocks/since)
 
 ---
 
-### Houseki no Kuni (Minimalist Coloured version)
+## Houseki no Kuni (Minimalist Coloured version)
 
 <table>
     <tr>
@@ -223,7 +223,7 @@ Example: [https://hnk.rocks/minimalist](https://hnk.rocks/minimalist)
 
 ---
 
-### Houseki no Kuni (Coloured version)
+## Houseki no Kuni (Coloured version)
 
 <table>
     <tr>
@@ -242,7 +242,7 @@ Example: [https://hnk.rocks/colour](https://hnk.rocks/colour)
 
 ---
 
-### The `uselessphos` Discord emote
+## The `uselessphos` Discord emote
 
 <table>
     <tr>
@@ -256,7 +256,7 @@ Example: [https://hnk.rocks/uselessphos](https://hnk.rocks/uselessphos)
 
 ---
 
-### Feedback form
+## Feedback form
 
 <table>
     <tr>
@@ -270,7 +270,7 @@ Example: [https://hnk.rocks/feedback](https://hnk.rocks/feedback)
 
 ---
 
-### Overview over all available Redirects
+## Overview over all available Redirects
 
 <table>
     <tr>
@@ -284,7 +284,7 @@ Example: [https://hnk.rocks/about](https://hnk.rocks/about)
 
 ---
 
-### Fandub project
+## Fandub project
 
 <table>
     <tr>
@@ -297,7 +297,7 @@ Redirects to the YouTube Playlist for the Houseki no Kuni Fandub Project.
 
 Example: [https://hnk.rocks/fandub](https://hnk.rocks/fandub)
 
-#### Episode links for the Fandub project
+### Episode links for the Fandub project
 
 <table>
     <tr>
@@ -320,7 +320,7 @@ Example: [https://hnk.rocks/fandub/episode/1](https://hnk.rocks/fandub/episode/1
 
 ---
 
-### Other works by Haruko Ichikawa
+## Other works by Haruko Ichikawa
 
 <table>
     <tr>
@@ -339,9 +339,9 @@ Parameters:
 
 _All these work URLs are relative to `https://hnk.rocks/other` or `https://hnk.rocks/etc`._
 
-#### Works directly related to Houseki no Kuni
+### Works directly related to Houseki no Kuni
 
-##### "Pseudomorph of Love" (Artbook)
+#### "Pseudomorph of Love" (Artbook)
 
 <table>
     <tr>
@@ -356,7 +356,7 @@ the Artbook.
 
 ---
 
-##### Lorebook (Japanese Volume 11 Extra)
+#### Lorebook (Japanese Volume 11 Extra)
 
 <table>
     <tr>
@@ -371,7 +371,7 @@ Volume 11 Lorebook extra.
 
 ---
 
-##### "Party at the End" (Japanese Volume 12 Extra)
+#### "Party at the End" (Japanese Volume 12 Extra)
 
 <table>
     <tr>
@@ -386,9 +386,9 @@ Redirects to the GitHub repository of the
 
 ---
 
-#### Works unrelated to Houseki no Kuni:
+### Works unrelated to Houseki no Kuni:
 
-##### "25 Hour Vacation"
+#### "25 Hour Vacation"
 
 <table>
     <tr>
@@ -404,7 +404,7 @@ Anthology.
 
 ---
 
-##### Haruko Ichikawa Anthology
+#### Haruko Ichikawa Anthology
 
 <table>
     <tr>
@@ -419,7 +419,7 @@ Redirects to the MangaDex title page for the
 
 ---
 
-##### "Moshimo, Tokyo"
+#### "Moshimo, Tokyo"
 
 <table>
     <tr>
@@ -434,7 +434,7 @@ contribution by Haruko Ichikawa.
 
 ---
 
-##### "Mushi to Uta"
+#### "Mushi to Uta"
 
 <table>
     <tr>
@@ -448,7 +448,7 @@ Redirects to the MangaDex chapter reader for the story
 
 ---
 
-##### "Ouji no Himitsu"
+#### "Ouji no Himitsu"
 
 <table>
     <tr>
@@ -462,7 +462,7 @@ Redirects to the MangaDex title page for
 
 ---
 
-##### "Saegusa-Sensei"
+#### "Saegusa-Sensei"
 
 <table>
     <tr>
@@ -476,9 +476,9 @@ Redirects to the MangaDex title page for
 
 ---
 
-### Technical & Protected Routes
+## Technical & Protected Routes
 
-#### oEmbed Route
+### oEmbed Route
 
 <table>
     <tr>
@@ -491,7 +491,7 @@ backend.
 
 ---
 
-#### Updating `/latest`, `/since`, and `/next`
+### Updating `/latest`, `/since`, and `/next`
 
 <table>
     <tr>
