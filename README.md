@@ -3,6 +3,11 @@
 A Cloudflare Worker script for the Houseki no Kuni community, using Cloudflare KV to redirect chapter numbers to
 MangaDex links, among a few other redirecting services.
 
+Many routes have convenience aliases, displayed in the tables of each route. You are free to use any of the listed
+aliases as they're functionally identical.
+
+_All routes are relative to the base URL `https://hnk.rocks`._
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
@@ -40,11 +45,6 @@ MangaDex links, among a few other redirecting services.
     - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
-Several Aliases are available for convenience.
-
-_All routes are relative to the base URL `https://hnk.rocks`._
 
 ---
 
