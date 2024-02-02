@@ -1,6 +1,3 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 doctoc README.md --title "**Table of Contents**"
 # fix indent levels
 sed -ri 's/^ {6}-/            -/' README.md
