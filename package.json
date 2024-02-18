@@ -6,14 +6,14 @@
     "reflare": "^1.1.5"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240129.0",
-    "@types/node": "^20.11.16",
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "@types/node": "^20.11.19",
     "doctoc": "^2.2.1",
-    "husky": "^9.0.10",
+    "husky": "^9.0.11",
     "is-ci": "^3.0.1",
-    "prettier": "^3.2.4",
+    "prettier": "^3.2.5",
     "typescript": "^5.3.3",
-    "wrangler": "^3.26.0"
+    "wrangler": "^3.28.3"
   },
   "private": true,
   "scripts": {
