@@ -12,6 +12,8 @@ export const HNK_MINIMALIST_URL = 'https://mangadex.org/title/37bf7574-641e-4665
 export const HNK_PARTY_AT_THE_END_URL = 'https://github.com/coconutcastle/HNK_party_at_the_end/blob/master/readfile.md' as const;
 export const HNK_PSEUDOMORPH_URL = 'https://houseki-no-kuni.fandom.com/wiki/Pseudomorph_of_Love' as const;
 export const HNK_TITLE_URL = 'https://mangadex.org/title/cade38b7-64c4-4a29-8e3c-8c283291d6c6/houseki-no-kuni' as const;
+export const HNK_FREEDOM_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom' as const;
+export const HNK_ONESHOT_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom#Houseki_No_Kuni_One_Shot' as const;
 
 // Other Ichikawa works
 export const MOSHIMO_TOKYO_URL = 'https://mangadex.org/title/fa91e632-8556-446e-8227-b6003acab958/moshimo-tokyo' as const;

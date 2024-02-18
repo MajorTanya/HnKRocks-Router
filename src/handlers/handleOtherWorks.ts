@@ -1,6 +1,8 @@
 import type { IRequestStrict } from 'itty-router/Router';
 import {
+    HNK_FREEDOM_URL,
     HNK_LOREBOOK_URL,
+    HNK_ONESHOT_URL,
     HNK_PARTY_AT_THE_END_URL,
     HNK_PSEUDOMORPH_URL,
     MOSHIMO_TOKYO_URL,
@@ -22,6 +24,14 @@ export const handleOtherWorks = async (request: IRequestStrict): Promise<Respons
         case 'pseudomorph':
         case 'pseudomorph-of-love':
             return Response.redirect(HNK_PSEUDOMORPH_URL, 307);
+        case 'freedom':
+        case 'love-freedom':
+        case 'love-freedom-hell':
+        case 'vol10-extra':
+            return Response.redirect(HNK_FREEDOM_URL, 307);
+        case 'oneshot':
+        case 'one-shot':
+            return Response.redirect(HNK_ONESHOT_URL, 307);
         case 'lorebook':
         case 'hnk-lorebook':
         case 'vol11-extra':

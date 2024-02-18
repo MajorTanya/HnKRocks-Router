@@ -31,6 +31,8 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 - [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
     - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
         - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
+        - ["Freedom Love Hell" (Japanese Volume 10 Extra)](#freedom-love-hell-japanese-volume-10-extra)
+        - [Original one-shot (Part of Japanese Volume 10 Extra)](#original-one-shot-part-of-japanese-volume-10-extra)
         - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
         - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
     - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
@@ -355,6 +357,41 @@ Redirects to the [Houseki no Kuni fandom wiki article](https://houseki-no-kuni.f
 the Artbook.
 
 Example: [https://hnk.rocks/other/pseudomorph](https://hnk.rocks/other/pseudomorph)
+
+---
+
+#### "Freedom Love Hell" (Japanese Volume 10 Extra)
+
+<table>
+    <tr>
+        <td><code>/freedom</code></td>
+        <td><code>/love-freedom</code></td>
+        <td><code>/love-freedom-hell</code></td>
+        <td><code>/vol10-extra</code></td>
+    </tr>
+</table>
+
+Redirects to the [Houseki no Kuni fandom wiki article](https://houseki-no-kuni.fandom.com/wiki/Freedom) with the
+Artbook. This includes the [original Houseki no Kuni one-shot](#original-one-shot-part-of-japanese-volume-10-extra)
+chapter.
+
+Example: [https://hnk.rocks/other/freedom](https://hnk.rocks/other/freedom)
+
+---
+
+#### Original one-shot (Part of Japanese Volume 10 Extra)
+
+<table>
+    <tr>
+        <td><code>/one-shot</code></td>
+        <td><code>/oneshot</code></td>
+    </tr>
+</table>
+
+Redirects to the section of the [Houseki no Kuni fandom wiki article](https://houseki-no-kuni.fandom.com/wiki/Freedom)
+with the [Freedom Love Hell](#freedom-love-hell-japanese-volume-10-extra) Artbook, which includes this one-shot chapter.
+
+Example: [https://hnk.rocks/other/one-shot](https://hnk.rocks/other/one-shot)
 
 ---
 
