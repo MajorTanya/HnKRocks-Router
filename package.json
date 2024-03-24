@@ -2,18 +2,18 @@
   "name": "hnkrocks-chapter-router",
   "version": "2.9.0",
   "dependencies": {
-    "itty-router": "^4.0.27",
+    "itty-router": "^4.2.2",
     "reflare": "^1.1.5"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240208.0",
-    "@types/node": "^20.11.19",
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "@types/node": "^20.11.30",
     "doctoc": "^2.2.1",
     "husky": "^9.0.11",
     "is-ci": "^3.0.1",
     "prettier": "^3.2.5",
-    "typescript": "^5.3.3",
-    "wrangler": "^3.28.3"
+    "typescript": "^5.4.3",
+    "wrangler": "^3.37.0"
   },
   "private": true,
   "scripts": {
