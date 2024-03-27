@@ -44,8 +44,12 @@ const generateDirectPageResponse = async (chapterNo: number, pageNo: number, env
     const pagePadded = `${pageNo}`.padStart(3, '0');
 
     const pageKey = `${chapterPadded}/p${pagePadded}`;
-    const r2Page = (await env.ChapterPages.get(`${pageKey}.png`)) || (await env.ChapterPages.get(`${pageKey}.jpg`));
-    const key = r2Page != null ? r2Page.key : null;
+    const page = (await env.ChapterPages.get(`${pageKey}.png`)) || (await env.ChapterPages.get(`${pageKey}.jpg`));
+    let pageV2: R2ObjectBody | null = null;
+    if (page == null) {
+        pageV2 = (await env.ChapterPages.get(`${pageKey}_v2.png`)) || (await env.ChapterPages.get(`${pageKey}_v2.jpg`));
+    }
+    const key = page?.key ?? pageV2?.key ?? null;
 
     if (key == null) return null;
 
