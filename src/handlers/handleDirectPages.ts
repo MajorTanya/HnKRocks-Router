@@ -3,6 +3,9 @@ import { OEMBED_PAGE_DIRECT } from '../constants';
 import { redirectToHnKTitlePage } from './handleChapters';
 import type { Env } from '../types';
 
+// we only check for a maximum of 5 versions of a chapter ([first upload] > v2 > v3 > v4 > v5 > give up)
+const MAX_SUPPORTED_VERSION = 5 as const;
+
 export const handleDirectPageLink = async (request: IRequestStrict, env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
     const chapterParam = request.params.chapterNo;
@@ -44,12 +47,16 @@ const generateDirectPageResponse = async (chapterNo: number, pageNo: number, env
     const pagePadded = `${pageNo}`.padStart(3, '0');
 
     const pageKey = `${chapterPadded}/p${pagePadded}`;
-    const page = (await env.ChapterPages.get(`${pageKey}.png`)) || (await env.ChapterPages.get(`${pageKey}.jpg`));
-    let pageV2: R2ObjectBody | null = null;
+
+    let page = await getFromChapterPagesR2(env, pageKey);
     if (page == null) {
-        pageV2 = (await env.ChapterPages.get(`${pageKey}_v2.png`)) || (await env.ChapterPages.get(`${pageKey}_v2.jpg`));
+        for (let i = 2; i <= MAX_SUPPORTED_VERSION; i++) {
+            page = await getFromChapterPagesR2(env, `${pageKey}_v${i}`);
+
+            if (page != null) break;
+        }
     }
-    const key = page?.key ?? pageV2?.key ?? null;
+    const key = page?.key;
 
     if (key == null) return null;
 
@@ -70,3 +77,7 @@ const generateDirectPageResponse = async (chapterNo: number, pageNo: number, env
         <meta http-equiv='Refresh' content='0; URL=${pageUrl}'>
     </head>`;
 };
+
+async function getFromChapterPagesR2(env: Env, key: string): Promise<R2ObjectBody | null> {
+    return (await env.ChapterPages.get(`${key}.png`)) || (await env.ChapterPages.get(`${key}.jpg`));
+}
