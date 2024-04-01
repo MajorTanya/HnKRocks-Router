@@ -2,7 +2,7 @@
   "name": "hnkrocks-chapter-router",
   "version": "2.10.0",
   "dependencies": {
-    "itty-router": "^4.2.2",
+    "itty-router": "^5.0.4",
     "reflare": "^1.1.5"
   },
   "devDependencies": {
