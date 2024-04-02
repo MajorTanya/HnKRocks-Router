@@ -1,4 +1,4 @@
-import type { IRequestStrict } from 'itty-router/Router';
+import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import { DEFAULT_JSON_HEADERS, OEMBED_BASE_RESPONSE, OEMBED_PAGE_DIRECT } from '../constants';
 
 type OEmbedProvider = { provider_name: string; provider_url: string } | Record<string, never>;

@@ -1,4 +1,4 @@
-import type { IRequestStrict } from 'itty-router/Router';
+import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import {
     HNK_FREEDOM_URL,
     HNK_LOREBOOK_URL,

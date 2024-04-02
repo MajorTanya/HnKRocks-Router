@@ -1,4 +1,4 @@
-import type { IRequestStrict } from 'itty-router/Router';
+import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import { OEMBED_PAGE_DIRECT } from '../constants';
 import { redirectToHnKTitlePage } from './handleChapters';
 import type { Env } from '../types';

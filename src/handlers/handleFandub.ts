@@ -1,4 +1,4 @@
-import type { IRequestStrict } from 'itty-router/Router';
+import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import { FANDUB_EP_01, FANDUB_EP_02, FANDUB_PLAYLIST } from '../constants';
 
 export const redirectToFandubPlaylist = () => Response.redirect(FANDUB_PLAYLIST);

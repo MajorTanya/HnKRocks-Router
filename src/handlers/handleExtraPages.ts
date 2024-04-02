@@ -1,4 +1,4 @@
-import type { IRequestStrict } from 'itty-router/Router';
+import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import useReflare from 'reflare';
 
 export const handleExtraPages = async (request: IRequestStrict): Promise<Response> => {

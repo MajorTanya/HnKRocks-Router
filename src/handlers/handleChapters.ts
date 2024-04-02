@@ -1,4 +1,4 @@
-import type { IRequestStrict } from 'itty-router/Router';
+import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import { HNK_TITLE_URL, ZERO_DECIMAL_PATTERN } from '../constants';
 import type { Env } from '../types';
 

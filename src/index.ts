@@ -23,7 +23,6 @@ import { handleExtraPages } from './handlers/handleExtraPages';
 import { handleFandubEpisodeNo, redirectToFandubPlaylist } from './handlers/handleFandub';
 import { handleOEmbed } from './handlers/handleOEmbed';
 import { handleOtherWorks } from './handlers/handleOtherWorks';
-import type { Env } from './types';
 
 const router = Router();
 
@@ -62,7 +61,5 @@ router.all('*', redirectToHnKTitlePage);
 
 // noinspection JSUnusedGlobalSymbols
 export default {
-    async fetch(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
-        return router.handle(request, env);
-    }
+    fetch: router.fetch
 };
