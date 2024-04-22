@@ -6,7 +6,7 @@
     "reflare": "^1.1.5"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240405.0",
+    "@cloudflare/workers-types": "^4.20240419.0",
     "@types/node": "^20.12.7",
     "doctoc": "^2.2.1",
     "husky": "^9.0.11",
