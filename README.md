@@ -28,6 +28,9 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 - [Overview over all available Redirects](#overview-over-all-available-redirects)
 - [Fandub project](#fandub-project)
     - [Episode links for the Fandub project](#episode-links-for-the-fandub-project)
+- [Short Stories Fandub project](#short-stories-fandub-project)
+    - [Episode links for the Short Stories Fandub project](#episode-links-for-the-short-stories-fandub-project)
+        - [Existing Episodes](#existing-episodes)
 - [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
     - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
         - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
@@ -319,6 +322,50 @@ Parameters:
 *Requires providing an episode number.*
 
 Example: [https://hnk.rocks/fandub/episode/1](https://hnk.rocks/fandub/episode/1)
+
+---
+
+## Short Stories Fandub project
+
+<table>
+    <tr>
+        <td><code>stories-fandub</code></td>
+        <td><code>stories-fandub/playlist</code></td>
+    </tr>
+</table>
+
+Redirects to the YouTube Playlist for the Ichikawa Short Stories Fandub project.
+
+Example: [https://hnk.rocks/stories-fandub](https://hnk.rocks/stories-fandub)
+
+### Episode links for the Short Stories Fandub project
+
+<table>
+    <tr>
+        <td><code>/stories-fandub/[work]</code></td>
+    </tr>
+</table>
+
+Redirects to the YouTube video for the Ichikawa Short Stories Fandub episode in question. If the episode doesn't exist,
+redirects to the YouTube Playlist for the Ichikawa Short Stories Fandub project.
+
+Parameters:
+
+- `[work]` - titles of works as described below (don't add the brackets).
+
+*Requires providing a work title.*
+
+#### Existing Episodes
+
+- "On Pandora" - Short story from volume 2 of the [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology).
+        - <table>
+        <tr>
+            <td><code>/stories-fandub/pandora</code></td>
+            <td><code>/stories-fandub/on-pandora</code></td>
+        </tr>
+      </table>
+
+Example: [https://hnk.rocks/stories-fandub/on-pandora](https://hnk.rocks/stories-fandub/on-pandora)
 
 ---
 

@@ -23,6 +23,7 @@ import { handleExtraPages } from './handlers/handleExtraPages';
 import { handleFandubEpisodeNo, redirectToFandubPlaylist } from './handlers/handleFandub';
 import { handleOEmbed } from './handlers/handleOEmbed';
 import { handleOtherWorks } from './handlers/handleOtherWorks';
+import { handleShortStoriesFandub, redirectToShortStoryFandubPlaylist } from './handlers/handleShortStoriesFandub';
 
 const router = Router();
 
@@ -55,11 +56,13 @@ router.get('/fandub', redirectToFandubPlaylist);
 router.get('/fandub/playlist', redirectToFandubPlaylist);
 router.get('/fandub(/e(pisodes?)?)?/:episodeNo', handleFandubEpisodeNo);
 
+router.get('/stories-fandub', redirectToShortStoryFandubPlaylist);
+router.get('/stories-fandub/playlist', redirectToShortStoryFandubPlaylist);
+router.get('/stories-fandub/:work', handleShortStoriesFandub);
+
 router.get('/oembed', handleOEmbed);
 
 router.all('*', redirectToHnKTitlePage);
 
 // noinspection JSUnusedGlobalSymbols
-export default {
-    fetch: router.fetch
-};
+export default { ...router };

@@ -33,3 +33,7 @@ export const USELESS_PHOS_URL = 'https://cdn.discordapp.com/emojis/6762752337028
 export const FANDUB_EP_01 = 'https://www.youtube.com/watch?v=qL2tXjJ5AMg' as const;
 export const FANDUB_EP_02 = 'https://www.youtube.com/watch?v=9DIzmyE8EaM' as const;
 export const FANDUB_PLAYLIST = 'https://www.youtube.com/playlist?list=PLqmueHYBwQkV_1KkdMlllDjhuUNqiaHGv' as const;
+
+// Short stories fandom
+export const SHORT_STORY_FANDUB_ON_PANDORA = 'https://www.youtube.com/watch?v=VQ7q5qyHPDw' as const;
+export const SHORT_STORY_FANDUB_PLAYLIST = 'https://www.youtube.com/@ibtips6987/videos' as const;
