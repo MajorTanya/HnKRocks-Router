@@ -36,4 +36,4 @@ export const FANDUB_PLAYLIST = 'https://www.youtube.com/playlist?list=PLqmueHYBw
 
 // Short stories fandom
 export const SHORT_STORY_FANDUB_ON_PANDORA = 'https://www.youtube.com/watch?v=VQ7q5qyHPDw' as const;
-export const SHORT_STORY_FANDUB_PLAYLIST = 'https://www.youtube.com/@ibtips6987/videos' as const;
+export const SHORT_STORY_FANDUB_PLAYLIST = 'https://www.youtube.com/playlist?list=PL2ZkRB7CWewhEwcXZAY7ySBIkxLWnl2J5' as const;

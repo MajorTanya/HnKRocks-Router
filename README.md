@@ -329,8 +329,8 @@ Example: [https://hnk.rocks/fandub/episode/1](https://hnk.rocks/fandub/episode/1
 
 <table>
     <tr>
-        <td><code>stories-fandub</code></td>
-        <td><code>stories-fandub/playlist</code></td>
+        <td><code>/stories-fandub</code></td>
+        <td><code>/stories-fandub/playlist</code></td>
     </tr>
 </table>
 
@@ -357,13 +357,8 @@ Parameters:
 
 #### Existing Episodes
 
-- "On Pandora" - Short story from volume 2 of the [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology).
-        - <table>
-        <tr>
-            <td><code>/stories-fandub/pandora</code></td>
-            <td><code>/stories-fandub/on-pandora</code></td>
-        </tr>
-      </table>
+- "On Pandora" short story from volume 2 of the [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology).
+        - `/on-pandora` | `/pandora`
 
 Example: [https://hnk.rocks/stories-fandub/on-pandora](https://hnk.rocks/stories-fandub/on-pandora)
 
