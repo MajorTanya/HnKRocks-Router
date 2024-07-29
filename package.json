@@ -12,7 +12,7 @@
     "husky": "^9.1.1",
     "is-ci": "^3.0.1",
     "prettier": "^3.3.3",
-    "typescript": "^5.5.3",
+    "typescript": "^5.5.4",
     "wrangler": "^3.65.1"
   },
   "private": true,
