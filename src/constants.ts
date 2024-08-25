@@ -22,6 +22,7 @@ export const MUSHI_TO_UTA_URL = 'https://mangadex.org/chapter/ee5d90b2-c9d6-4461
 export const OUJI_URL = 'https://mangadex.org/title/07c1eeab-3185-4932-a975-132f2115d6bd/ouji-no-himitsu' as const;
 export const SAEGUSA_URL = 'https://mangadex.org/title/4de59a89-a6a8-4059-9ab3-501f7c260223/saegusa-sensei' as const;
 export const SAKUHINSHUU_URL = 'https://mangadex.org/title/e89c85d5-3131-4fd8-bf4f-3985ef63be83/ichikawa-haruko-sakuhinshuu' as const;
+export const TSURITAMA_ILLUSTRATION_URL = 'https://dijehtranslations.wordpress.com/2018/08/29/ichikawa-haruko-special-illustration-for-tsuritama-anime-debut/';
 export const VACANCES_URL = 'https://mangadex.org/chapter/39331c1e-4118-450f-b61c-3112e57ae936' as const;
 
 // Extras

@@ -46,6 +46,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - ["Mushi to Uta"](#mushi-to-uta)
         - ["Ouji no Himitsu"](#ouji-no-himitsu)
         - ["Saegusa-Sensei"](#saegusa-sensei)
+        - [Special Illustration for Tsuritama's Anime Debut](#special-illustration-for-tsuritamas-anime-debut)
 - [Technical & Protected Routes](#technical--protected-routes)
     - [oEmbed Route](#oembed-route)
     - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
@@ -586,6 +587,23 @@ Example: [https://hnk.rocks/other/ouji](https://hnk.rocks/other/ouji)
 
 Redirects to the MangaDex title page for
 ["Saegusa-Sensei"](https://mangadex.org/title/4de59a89-a6a8-4059-9ab3-501f7c260223/saegusa-sensei).
+
+Example: [https://hnk.rocks/other/saegusa](https://hnk.rocks/other/saegusa)
+
+---
+
+#### Special Illustration for Tsuritama's Anime Debut
+
+<table>
+    <tr>
+        <td><code>/tsuritama</code></td>
+        <td><code>/tsuritama-illustration</code></td>
+    </tr>
+</table>
+
+Redirects to a
+[fan translation blog entry](https://dijehtranslations.wordpress.com/2018/08/29/ichikawa-haruko-special-illustration-for-tsuritama-anime-debut/)
+for an illustration and special message by Haruko Ichikawa, made for the Tsuritama anime debut in 2012.
 
 Example: [https://hnk.rocks/other/saegusa](https://hnk.rocks/other/saegusa)
 

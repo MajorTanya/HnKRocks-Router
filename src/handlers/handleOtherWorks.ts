@@ -11,6 +11,7 @@ import {
     OUJI_URL,
     SAEGUSA_URL,
     SAKUHINSHUU_URL,
+    TSURITAMA_ILLUSTRATION_URL,
     VACANCES_URL
 } from '../constants';
 import { redirectToHnKTitlePage } from './handleChapters';
@@ -68,6 +69,9 @@ export const handleOtherWorks = async (request: IRequestStrict): Promise<Respons
         case 'saegusa':
         case 'saegusa-sensei':
             return Response.redirect(SAEGUSA_URL, TEMPORARY_REDIRECT);
+        case 'tsuritama':
+        case 'tsuritama-illustration':
+            return Response.redirect(TSURITAMA_ILLUSTRATION_URL, TEMPORARY_REDIRECT);
         default:
             return redirectToHnKTitlePage();
     }
