@@ -1,8 +1,9 @@
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import { HNK_TITLE_URL, ZERO_DECIMAL_PATTERN } from '../constants';
+import { MOVED_PERMANENTLY, TEMPORARY_REDIRECT } from '../util/redirects';
 import type { Env } from '../types';
 
-export const redirectToHnKTitlePage = () => Response.redirect(HNK_TITLE_URL, 301);
+export const redirectToHnKTitlePage = () => Response.redirect(HNK_TITLE_URL, MOVED_PERMANENTLY);
 
 export const handleChapterNo = async (request: IRequestStrict, env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();
@@ -20,7 +21,7 @@ export const handleChapterNo = async (request: IRequestStrict, env: Env): Promis
         url = Number.isNaN(pageParsed) || url === null ? url : `${url}/${pageParsed}`;
     }
 
-    return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
+    return url === null ? redirectToHnKTitlePage() : Response.redirect(url, TEMPORARY_REDIRECT);
 };
 export const handleLatestChapter = async (request: IRequestStrict, env: Env): Promise<Response> => {
     let url = await env.ChapterToMDLink.get('latest');
@@ -29,5 +30,5 @@ export const handleLatestChapter = async (request: IRequestStrict, env: Env): Pr
         const pageParsed = parseInt(pageParam);
         url = Number.isNaN(pageParsed) || url === null ? url : `${url}/${pageParsed}`;
     }
-    return url === null ? redirectToHnKTitlePage() : Response.redirect(url, 307);
+    return url === null ? redirectToHnKTitlePage() : Response.redirect(url, TEMPORARY_REDIRECT);
 };

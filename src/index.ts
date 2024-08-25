@@ -24,18 +24,19 @@ import { handleFandubEpisodeNo, redirectToFandubPlaylist } from './handlers/hand
 import { handleOEmbed } from './handlers/handleOEmbed';
 import { handleOtherWorks } from './handlers/handleOtherWorks';
 import { handleShortStoriesFandub, redirectToShortStoryFandubPlaylist } from './handlers/handleShortStoriesFandub';
+import { MOVED_PERMANENTLY, PERMANENT_REDIRECT, TEMPORARY_REDIRECT } from './util/redirects';
 
 const router = Router();
 
 // Route definitions
 
-router.get('/(submit|login.php)', () => Response.redirect(SUBMISSION_LOGIN_URL, 308));
-router.get('/uselessphos', () => Response.redirect(USELESS_PHOS_URL, 308));
-router.get('/feedback', () => Response.redirect(FEEDBACK_URL, 307));
-router.get('/about', () => Response.redirect(ABOUT_URL, 307));
+router.get('/(submit|login.php)', () => Response.redirect(SUBMISSION_LOGIN_URL, PERMANENT_REDIRECT));
+router.get('/uselessphos', () => Response.redirect(USELESS_PHOS_URL, PERMANENT_REDIRECT));
+router.get('/feedback', () => Response.redirect(FEEDBACK_URL, TEMPORARY_REDIRECT));
+router.get('/about', () => Response.redirect(ABOUT_URL, TEMPORARY_REDIRECT));
 
 // shim the old access to Saegusa-Sensei to not break old links
-router.get('/saegusa(-sensei)?', () => Response.redirect('https://hnk.rocks/other/saegusa', 301));
+router.get('/saegusa(-sensei)?', () => Response.redirect('https://hnk.rocks/other/saegusa', MOVED_PERMANENTLY));
 
 router.get('/(other|etc)/:work', handleOtherWorks);
 
@@ -45,8 +46,8 @@ router.get('/(latest|new(est)?)/p(ages?)?/:pageNo/i', handleLatestChapterDirectP
 router.get('/c(hapters?)?/:chapterNo(/p(ages?)?/:pageNo)?', handleChapterNo);
 router.get('/c(hapters?)?/:chapterNo/p(ages?)?/:pageNo/i', handleDirectPageLink);
 
-router.get('/minimalist', () => Response.redirect(HNK_MINIMALIST_URL, 307));
-router.get('/colou?r(ed)?', () => Response.redirect(HNK_COLOURED_URL, 307));
+router.get('/minimalist', () => Response.redirect(HNK_MINIMALIST_URL, TEMPORARY_REDIRECT));
+router.get('/colou?r(ed)?', () => Response.redirect(HNK_COLOURED_URL, TEMPORARY_REDIRECT));
 
 router.get('/next', handleExtraPages);
 router.get('/since', handleExtraPages);
