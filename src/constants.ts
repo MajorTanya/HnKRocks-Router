@@ -16,6 +16,7 @@ export const HNK_FREEDOM_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom'
 export const HNK_ONESHOT_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom#Houseki_No_Kuni_One_Shot' as const;
 
 // Other Ichikawa works
+export const CURRENT_OBSESSION_INTERVIEW_URL = 'https://www.current-obsession.com/the-kingdom-of-gems/';
 export const MOSHIMO_TOKYO_URL = 'https://mangadex.org/title/fa91e632-8556-446e-8227-b6003acab958/moshimo-tokyo' as const;
 export const MUSHI_TO_UTA_URL = 'https://mangadex.org/chapter/ee5d90b2-c9d6-4461-a972-24ef0e7ce9af' as const;
 export const OUJI_URL = 'https://mangadex.org/title/07c1eeab-3185-4932-a975-132f2115d6bd/ouji-no-himitsu' as const;

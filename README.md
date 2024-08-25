@@ -38,6 +38,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - [Original one-shot (Part of Japanese Volume 10 Extra)](#original-one-shot-part-of-japanese-volume-10-extra)
         - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
         - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
+        - [Current Obsession's Interview with Haruko Ichikawa](#current-obsessions-interview-with-haruko-ichikawa)
     - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
         - ["25 Hour Vacation"](#25-hour-vacation)
         - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
@@ -468,6 +469,23 @@ Redirects to the GitHub repository of the
 [translated Volume 12 Extra book titled "Party at the End"](https://github.com/coconutcastle/HNK_party_at_the_end/blob/master/readfile.md).
 
 Example: [https://hnk.rocks/other/party](https://hnk.rocks/other/party)
+
+---
+
+#### Current Obsession's Interview with Haruko Ichikawa
+
+<table>
+    <tr>
+        <td><code>/current-obsession</code></td>
+        <td><code>/current-obsession-interview</code></td>
+        <td><code>/co-interview</code></td>
+    </tr>
+</table>
+
+Redirects to an [interview with Haruko Ichikawa](https://www.current-obsession.com/the-kingdom-of-gems/), conducted by
+the magazine Current Obsession via e-mail.
+
+Example: [https://hnk.rocks/other/co-interview](https://hnk.rocks/other/co-interview)
 
 ---
 
