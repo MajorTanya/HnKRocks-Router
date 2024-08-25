@@ -4,3 +4,8 @@ export interface Env {
     ExtraPages: KVNamespace;
     ChapterPages: R2Bucket;
 }
+
+export type Shim = {
+    OLD: string;
+    NEW: string;
+};

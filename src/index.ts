@@ -9,14 +9,7 @@
  */
 
 import { Router } from 'itty-router/Router';
-import {
-    ABOUT_URL,
-    FEEDBACK_URL,
-    HNK_COLOURED_URL,
-    HNK_MINIMALIST_URL,
-    SUBMISSION_LOGIN_URL,
-    USELESS_PHOS_URL
-} from './constants';
+import { ABOUT_URL, FEEDBACK_URL, HNK_COLOURED_URL, HNK_MINIMALIST_URL, USELESS_PHOS_URL } from './constants';
 import { handleChapterNo, handleLatestChapter, redirectToHnKTitlePage } from './handlers/handleChapters';
 import { handleDirectPageLink, handleLatestChapterDirectPageLink } from './handlers/handleDirectPages';
 import { handleExtraPages } from './handlers/handleExtraPages';
@@ -25,18 +18,18 @@ import { handleOEmbed } from './handlers/handleOEmbed';
 import { handleOtherWorks } from './handlers/handleOtherWorks';
 import { handleShortStoriesFandub, redirectToShortStoryFandubPlaylist } from './handlers/handleShortStoriesFandub';
 import { MOVED_PERMANENTLY, PERMANENT_REDIRECT, TEMPORARY_REDIRECT } from './util/redirects';
+import { SHIMS } from './util/shims';
 
 const router = Router();
 
 // Route definitions
-
-router.get('/(submit|login.php)', () => Response.redirect(SUBMISSION_LOGIN_URL, PERMANENT_REDIRECT));
 router.get('/uselessphos', () => Response.redirect(USELESS_PHOS_URL, PERMANENT_REDIRECT));
 router.get('/feedback', () => Response.redirect(FEEDBACK_URL, TEMPORARY_REDIRECT));
 router.get('/about', () => Response.redirect(ABOUT_URL, TEMPORARY_REDIRECT));
 
-// shim the old access to Saegusa-Sensei to not break old links
-router.get('/saegusa(-sensei)?', () => Response.redirect('https://hnk.rocks/other/saegusa', MOVED_PERMANENTLY));
+// shim deprecated links
+router.get(SHIMS.LOGIN.OLD, () => Response.redirect(SHIMS.LOGIN.NEW, PERMANENT_REDIRECT));
+router.get(SHIMS.SAEGUSA.OLD, () => Response.redirect(SHIMS.SAEGUSA.NEW, MOVED_PERMANENTLY));
 
 router.get('/(other|etc)/:work', handleOtherWorks);
 
