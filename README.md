@@ -668,7 +668,7 @@ Redirects to a
 This part of the interview is about Haruko Ichikawa's works in general as well as her process and sources of
 inspiration.
 
-Example: [https://hnk.rocks/interviews/en/kono-manga-2014-pt-1](http://hnk.rocks/interviews/en/kono-manga-2014-pt-1)
+Example: [https://hnk.rocks/interviews/en/kono-manga-2014-pt-2](http://hnk.rocks/interviews/en/kono-manga-2014-pt-2)
 
 ---
 
