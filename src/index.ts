@@ -19,6 +19,7 @@ import { handleOtherWorks } from './handlers/handleOtherWorks';
 import { handleShortStoriesFandub, redirectToShortStoryFandubPlaylist } from './handlers/handleShortStoriesFandub';
 import { MOVED_PERMANENTLY, PERMANENT_REDIRECT, TEMPORARY_REDIRECT } from './util/redirects';
 import { SHIMS } from './util/shims';
+import { handleInterviews } from './handlers/handleInterviews';
 
 const router = Router();
 
@@ -28,6 +29,7 @@ router.get('/feedback', () => Response.redirect(FEEDBACK_URL, TEMPORARY_REDIRECT
 router.get('/about', () => Response.redirect(ABOUT_URL, TEMPORARY_REDIRECT));
 
 // shim deprecated links
+router.get(SHIMS.CO_INTERVIEW.OLD, () => Response.redirect(SHIMS.CO_INTERVIEW.NEW, PERMANENT_REDIRECT));
 router.get(SHIMS.LOGIN.OLD, () => Response.redirect(SHIMS.LOGIN.NEW, PERMANENT_REDIRECT));
 router.get(SHIMS.SAEGUSA.OLD, () => Response.redirect(SHIMS.SAEGUSA.NEW, MOVED_PERMANENTLY));
 
@@ -53,6 +55,8 @@ router.get('/fandub(/e(pisodes?)?)?/:episodeNo', handleFandubEpisodeNo);
 router.get('/stories-fandub', redirectToShortStoryFandubPlaylist);
 router.get('/stories-fandub/playlist', redirectToShortStoryFandubPlaylist);
 router.get('/stories-fandub/:work', handleShortStoriesFandub);
+
+router.get('/interviews?/:lang/:interviewId', handleInterviews);
 
 router.get('/oembed', handleOEmbed);
 

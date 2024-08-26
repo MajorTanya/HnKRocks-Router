@@ -38,7 +38,6 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - [Original one-shot (Part of Japanese Volume 10 Extra)](#original-one-shot-part-of-japanese-volume-10-extra)
         - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
         - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
-        - [Current Obsession's Interview with Haruko Ichikawa](#current-obsessions-interview-with-haruko-ichikawa)
     - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
         - ["25 Hour Vacation"](#25-hour-vacation)
         - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
@@ -47,6 +46,12 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - ["Ouji no Himitsu"](#ouji-no-himitsu)
         - ["Saegusa-Sensei"](#saegusa-sensei)
         - [Special Illustration for Tsuritama's Anime Debut](#special-illustration-for-tsuritamas-anime-debut)
+- [Interviews](#interviews)
+    - [Interview with Eureka (2010)](#interview-with-eureka-2010)
+    - [Interview with Kono Manga ga Sugoi (2014) - Part 1](#interview-with-kono-manga-ga-sugoi-2014---part-1)
+    - [Interview with Kono Manga ga Sugoi (2014) - Part 2](#interview-with-kono-manga-ga-sugoi-2014---part-2)
+    - [Interview with Current Obsession (2015)](#interview-with-current-obsession-2015)
+    - [Interview with Entertainment Week (2016)](#interview-with-entertainment-week-2016)
 - [Technical & Protected Routes](#technical--protected-routes)
     - [oEmbed Route](#oembed-route)
     - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
@@ -473,23 +478,6 @@ Example: [https://hnk.rocks/other/party](https://hnk.rocks/other/party)
 
 ---
 
-#### Current Obsession's Interview with Haruko Ichikawa
-
-<table>
-    <tr>
-        <td><code>/current-obsession</code></td>
-        <td><code>/current-obsession-interview</code></td>
-        <td><code>/co-interview</code></td>
-    </tr>
-</table>
-
-Redirects to an [interview with Haruko Ichikawa](https://www.current-obsession.com/the-kingdom-of-gems/), conducted by
-the magazine Current Obsession via e-mail.
-
-Example: [https://hnk.rocks/other/co-interview](https://hnk.rocks/other/co-interview)
-
----
-
 ### Works unrelated to Houseki no Kuni:
 
 #### "25 Hour Vacation"
@@ -606,6 +594,119 @@ Redirects to a
 for an illustration and special message by Haruko Ichikawa, made for the Tsuritama anime debut in 2012.
 
 Example: [https://hnk.rocks/other/saegusa](https://hnk.rocks/other/saegusa)
+
+---
+
+## Interviews
+
+<table>
+    <tr>
+        <td><code>/interview/[language]/[interview]</code></td>
+        <td><code>/interviews/[language]/[interview]</code></td>
+    </tr>
+</table>
+
+Redirects to interviews conducted about Houseki no Kuni or other projects of Haruko Ichikawa. Some may only be available
+in specific languages.
+
+_Requires providing a language AND an interview._ Please refer to the listed interviews below for the correct
+parameters.
+
+_All these work URLs are relative to `https://hnk.rocks/interviews` or `https://hnk.rocks/interview`._
+
+Parameters:
+
+- `[language]` - language shorthand (don't add the brackets). Currently only uses `en` for English language interviews.
+- `[interview]` - interview link as specified below (don't add the brackets)
+
+---
+
+### Interview with Eureka (2010)
+
+<table>
+    <tr>
+        <td><code>/en/eureka-2010</code></td>
+        <td><code>/en/eureka</code></td>
+    </tr>
+</table>
+
+Redirects to a
+[fan translation of an interview conducted by Eureka in 2010](https://dijehtranslations.wordpress.com/2021/10/10/ichikawa-haruko-interview-eureka-02-2010/).
+
+Example: [https://hnk.rocks/interviews/en/eureka-2010](http://hnk.rocks/interviews/en/eureka-2010)
+
+---
+
+### Interview with Kono Manga ga Sugoi (2014) - Part 1
+
+<table>
+    <tr>
+        <td><code>/en/kono-manga-2014-pt-1</code></td>
+        <td><code>/en/2014-pt-1</code></td>
+    </tr>
+</table>
+
+Redirects to a
+[fan translation of part 1 of an interview conducted by Kono Manga ga Sugoi in 2014](https://dijehtranslations.wordpress.com/2018/06/22/ichikawa-haruko-houseki-no-kuni-interview-2014/).
+This part of the interview is specifically about Houseki no Kuni.
+
+Example: [https://hnk.rocks/interviews/en/kono-manga-2014-pt-1](http://hnk.rocks/interviews/en/kono-manga-2014-pt-1)
+
+---
+
+### Interview with Kono Manga ga Sugoi (2014) - Part 2
+
+<table>
+    <tr>
+        <td><code>/en/kono-manga-2014-pt-2</code></td>
+        <td><code>/en/2014-pt-2</code></td>
+    </tr>
+</table>
+
+Redirects to a
+[fan translation of part 2 of an interview conducted by Kono Manga ga Sugoi in 2014](https://dijehtranslations.wordpress.com/2018/07/18/ichikawa-haruko-2014-interview-part-2/).
+This part of the interview is about Haruko Ichikawa's works in general as well as her process and sources of
+inspiration.
+
+Example: [https://hnk.rocks/interviews/en/kono-manga-2014-pt-1](http://hnk.rocks/interviews/en/kono-manga-2014-pt-1)
+
+---
+
+### Interview with Current Obsession (2015)
+
+<table>
+    <tr>
+        <td><code>/en/current-obsession-2015</code></td>
+        <td><code>/en/current-obsession</code></td>
+        <td><code>/en/co-2015</code></td>
+    </tr>
+</table>
+
+Redirects to an [interview with Haruko Ichikawa](https://www.current-obsession.com/the-kingdom-of-gems/), conducted by
+the Dutch magazine Current Obsession via e-mail.
+
+Note: The website credits text and translation to 2018 but the relevant issue of the magazine was released in 2015, so
+2015 is used here.
+
+Example: [https://hnk.rocks/interviews/en/current-obsession-2015](http://hnk.rocks/interviews/en/current-obsession-2015)
+
+---
+
+### Interview with Entertainment Week (2016)
+
+<table>
+    <tr>
+        <td><code>/en/entertainment-week-2016</code></td>
+        <td><code>/en/entertainment-week</code></td>
+        <td><code>/en/entertainment-2016</code></td>
+    </tr>
+</table>
+
+Redirects to a
+[fan translation of an interview conducted by Entertainment Week in 2016](https://seizonsenryaku1.wordpress.com/2018/01/28/ichikawa-haruko-interview-on-houseki-no-kuni-translation/).
+The Japanese interview was originally conducted by Entertainment Week, whose website was shut down in June 2024.
+
+Example: [https://hnk.rocks/interviews/en/entertainment-week-2016](http://hnk.rocks/interviews/en/entertainment-week-2016)
 
 ---
 

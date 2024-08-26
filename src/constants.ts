@@ -16,7 +16,6 @@ export const HNK_FREEDOM_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom'
 export const HNK_ONESHOT_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom#Houseki_No_Kuni_One_Shot' as const;
 
 // Other Ichikawa works
-export const CURRENT_OBSESSION_INTERVIEW_URL = 'https://www.current-obsession.com/the-kingdom-of-gems/';
 export const MOSHIMO_TOKYO_URL = 'https://mangadex.org/title/fa91e632-8556-446e-8227-b6003acab958/moshimo-tokyo' as const;
 export const MUSHI_TO_UTA_URL = 'https://mangadex.org/chapter/ee5d90b2-c9d6-4461-a972-24ef0e7ce9af' as const;
 export const OUJI_URL = 'https://mangadex.org/title/07c1eeab-3185-4932-a975-132f2115d6bd/ouji-no-himitsu' as const;
@@ -39,3 +38,10 @@ export const FANDUB_PLAYLIST = 'https://www.youtube.com/playlist?list=PLqmueHYBw
 // Short stories fandom
 export const SHORT_STORY_FANDUB_ON_PANDORA = 'https://www.youtube.com/watch?v=VQ7q5qyHPDw' as const;
 export const SHORT_STORY_FANDUB_PLAYLIST = 'https://www.youtube.com/playlist?list=PL2ZkRB7CWewhEwcXZAY7ySBIkxLWnl2J5' as const;
+
+// Interviews
+export const CURRENT_OBSESSION_2015_INTERVIEW = 'https://www.current-obsession.com/the-kingdom-of-gems/';
+export const ENTERTAINMENT_WEEK_2016_INTERVIEW = 'https://seizonsenryaku1.wordpress.com/2018/01/28/ichikawa-haruko-interview-on-houseki-no-kuni-translation/';
+export const EUREKA_2010_INTERVIEW = 'https://dijehtranslations.wordpress.com/2021/10/10/ichikawa-haruko-interview-eureka-02-2010/';
+export const KONO_MANGA_2014_INTERVIEW_PT_1 = 'https://dijehtranslations.wordpress.com/2018/06/22/ichikawa-haruko-houseki-no-kuni-interview-2014/';
+export const KONO_MANGA_2014_INTERVIEW_PT_2 = 'https://dijehtranslations.wordpress.com/2018/07/18/ichikawa-haruko-2014-interview-part-2/';
