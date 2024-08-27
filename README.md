@@ -34,6 +34,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 - [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
     - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
         - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
+        - ["Statue" (Japanese Volume 9 Extra)](#statue-japanese-volume-9-extra)
         - ["Freedom Love Hell" (Japanese Volume 10 Extra)](#freedom-love-hell-japanese-volume-10-extra)
         - [Original one-shot (Part of Japanese Volume 10 Extra)](#original-one-shot-part-of-japanese-volume-10-extra)
         - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
@@ -406,6 +407,23 @@ Redirects to the [Houseki no Kuni fandom wiki article](https://houseki-no-kuni.f
 the Artbook.
 
 Example: [https://hnk.rocks/other/pseudomorph](https://hnk.rocks/other/pseudomorph)
+
+---
+
+#### "Statue" (Japanese Volume 9 Extra)
+
+<table>
+    <tr>
+        <td><code>/statue</code></td>
+        <td><code>/vol9-extra</code></td>
+        <td><code>/vol09-extra</code></td>
+    </tr>
+</table>
+
+Redirects to the [Pastebin with a fan translation](https://pastebin.com/mfhZPsUa) of the text in the Volume 9 Statue
+Artbook extra. Translation by Discord user `@anonymously5866`.
+
+Example: [https://hnk.rocks/other/statue](https://hnk.rocks/other/statue)
 
 ---
 
