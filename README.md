@@ -131,7 +131,7 @@ Provides a specially formatted HTML response which will be rendered as an image 
 
 *Requires providing a chapter and a page number.*
 
-Example: [https://hnk.rocks/chapter/1/page/2/i](https://hnk.rocks/chapter/1/page/i)
+Example: [https://hnk.rocks/chapter/1/page/2/i](https://hnk.rocks/chapter/1/page/2/i)
 
 ---
 
@@ -611,7 +611,7 @@ Redirects to a
 [fan translation blog entry](https://dijehtranslations.wordpress.com/2018/08/29/ichikawa-haruko-special-illustration-for-tsuritama-anime-debut/)
 for an illustration and special message by Haruko Ichikawa, made for the Tsuritama anime debut in 2012.
 
-Example: [https://hnk.rocks/other/saegusa](https://hnk.rocks/other/saegusa)
+Example: [https://hnk.rocks/other/tsuritama](https://hnk.rocks/other/tsuritama)
 
 ---
 
@@ -651,7 +651,7 @@ Parameters:
 Redirects to a
 [fan translation of an interview conducted by Eureka in 2010](https://dijehtranslations.wordpress.com/2021/10/10/ichikawa-haruko-interview-eureka-02-2010/).
 
-Example: [https://hnk.rocks/interviews/en/eureka-2010](http://hnk.rocks/interviews/en/eureka-2010)
+Example: [https://hnk.rocks/interviews/en/eureka-2010](https://hnk.rocks/interviews/en/eureka-2010)
 
 ---
 
@@ -668,7 +668,7 @@ Redirects to a
 [fan translation of part 1 of an interview conducted by Kono Manga ga Sugoi in 2014](https://dijehtranslations.wordpress.com/2018/06/22/ichikawa-haruko-houseki-no-kuni-interview-2014/).
 This part of the interview is specifically about Houseki no Kuni.
 
-Example: [https://hnk.rocks/interviews/en/kono-manga-2014-pt-1](http://hnk.rocks/interviews/en/kono-manga-2014-pt-1)
+Example: [https://hnk.rocks/interviews/en/kono-manga-2014-pt-1](https://hnk.rocks/interviews/en/kono-manga-2014-pt-1)
 
 ---
 
@@ -686,7 +686,7 @@ Redirects to a
 This part of the interview is about Haruko Ichikawa's works in general as well as her process and sources of
 inspiration.
 
-Example: [https://hnk.rocks/interviews/en/kono-manga-2014-pt-2](http://hnk.rocks/interviews/en/kono-manga-2014-pt-2)
+Example: [https://hnk.rocks/interviews/en/kono-manga-2014-pt-2](https://hnk.rocks/interviews/en/kono-manga-2014-pt-2)
 
 ---
 
@@ -706,7 +706,7 @@ the Dutch magazine Current Obsession via e-mail.
 Note: The website credits text and translation to 2018 but the relevant issue of the magazine was released in 2015, so
 2015 is used here.
 
-Example: [https://hnk.rocks/interviews/en/current-obsession-2015](http://hnk.rocks/interviews/en/current-obsession-2015)
+Example: [https://hnk.rocks/interviews/en/current-obsession-2015](https://hnk.rocks/interviews/en/current-obsession-2015)
 
 ---
 
@@ -724,7 +724,7 @@ Redirects to a
 [fan translation of an interview conducted by Entertainment Week in 2016](https://seizonsenryaku1.wordpress.com/2018/01/28/ichikawa-haruko-interview-on-houseki-no-kuni-translation/).
 The Japanese interview was originally conducted by Entertainment Week, whose website was shut down in June 2024.
 
-Example: [https://hnk.rocks/interviews/en/entertainment-week-2016](http://hnk.rocks/interviews/en/entertainment-week-2016)
+Example: [https://hnk.rocks/interviews/en/entertainment-week-2016](https://hnk.rocks/interviews/en/entertainment-week-2016)
 
 ---
 
