@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241022.0",
-    "@types/node": "^20.17.0",
+    "@types/node": "^20.17.1",
     "doctoc": "^2.2.1",
     "husky": "^9.1.6",
     "is-ci": "^3.0.1",
