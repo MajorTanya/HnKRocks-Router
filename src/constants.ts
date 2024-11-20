@@ -15,6 +15,7 @@ export const HNK_TITLE_URL = 'https://mangadex.org/title/cade38b7-64c4-4a29-8e3c
 export const HNK_FREEDOM_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom' as const;
 export const HNK_ONESHOT_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom#Houseki_No_Kuni_One_Shot' as const;
 export const HNK_STATUE_URL = 'https://pastebin.com/mfhZPsUa';
+export const HNK_DRONE_SHOW_URL = 'https://www.youtube.com/watch?v=EFIMy02Nhoc';
 
 // Other Ichikawa works
 export const MOSHIMO_TOKYO_URL = 'https://mangadex.org/title/fa91e632-8556-446e-8227-b6003acab958/moshimo-tokyo' as const;

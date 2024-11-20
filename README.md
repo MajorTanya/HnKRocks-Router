@@ -39,6 +39,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - [Original one-shot (Part of Japanese Volume 10 Extra)](#original-one-shot-part-of-japanese-volume-10-extra)
         - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
         - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
+        - [Drone Show for Volume 13 Release Countdown (2024-11-20)](#drone-show-for-volume-13-release-countdown-2024-11-20)
     - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
         - ["25 Hour Vacation"](#25-hour-vacation)
         - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
@@ -493,6 +494,23 @@ Redirects to the GitHub repository of the
 [translated Volume 12 Extra book titled "Party at the End"](https://github.com/coconutcastle/HNK_party_at_the_end/blob/master/readfile.md).
 
 Example: [https://hnk.rocks/other/party](https://hnk.rocks/other/party)
+
+---
+
+#### Drone Show for Volume 13 Release Countdown (2024-11-20)
+
+<table>
+    <tr>
+        <td><code>/drones</code></td>
+        <td><code>/drone-show</code></td>
+        <td><code>/vol13-drone-show</code></td>
+    </tr>
+</table>
+
+Redirects to the past livestream on the official Kodansha YouTube channel of the
+[Volume 13 Release Countdown Drone Show](https://www.youtube.com/watch?v=EFIMy02Nhoc).
+
+Example: [https://hnk.rocks/other/drones](https://hnk.rocks/other/drones)
 
 ---
 
