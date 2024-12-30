@@ -28,6 +28,7 @@ export const VACANCES_URL = 'https://mangadex.org/chapter/39331c1e-4118-450f-b61
 
 // Extras
 export const ABOUT_URL = 'https://majortanya.github.io/HnKRocks-Router/' as const;
+export const EXTRA_PAGES_HOSTNAME = 'hnkrocks-extra-pages-9i8.pages.dev' as const;
 export const FEEDBACK_URL = 'https://forms.gle/QRGGriFizperPnZM6' as const;
 export const SUBMISSION_LOGIN_URL = 'https://new.hnk.rocks/' as const;
 export const USELESS_PHOS_URL = 'https://cdn.discordapp.com/emojis/676275233702805515.webp?quality=lossless' as const;

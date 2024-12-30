@@ -1,16 +1,16 @@
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import useReflare from 'reflare';
+import { EXTRA_PAGES_HOSTNAME } from '../constants';
 
 export const handleExtraPages = async (request: IRequestStrict): Promise<Response> => {
-    const reflare = await useReflare();
-
-    reflare.push({
-        path: '/*',
-        upstream: {
-            domain: 'hnkrocks-extra-pages-9i8.pages.dev',
-            protocol: 'https'
-        }
+    const clonedUrl = new URL(request.url);
+    clonedUrl.hostname = EXTRA_PAGES_HOSTNAME;
+    clonedUrl.protocol = 'https:';
+    clonedUrl.port = '';
+    const targetRequest = new Request(clonedUrl, {
+        body: request.body,
+        method: request.method,
+        headers: request.headers
     });
 
-    return reflare.handle(request);
+    return fetch(targetRequest);
 };
