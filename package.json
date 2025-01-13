@@ -5,14 +5,14 @@
     "itty-router": "^5.0.18"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241022.0",
-    "@types/node": "^20.17.0",
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "@types/node": "^20.17.12",
     "doctoc": "^2.2.1",
-    "husky": "^9.1.6",
-    "is-ci": "^3.0.1",
-    "prettier": "^3.3.3",
-    "typescript": "^5.6.3",
-    "wrangler": "^3.83.0"
+    "husky": "^9.1.7",
+    "is-ci": "^4.1.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "wrangler": "^3.101.0"
   },
   "private": true,
   "scripts": {
