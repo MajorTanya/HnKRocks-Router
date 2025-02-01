@@ -5,7 +5,7 @@
     "itty-router": "^5.0.18"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250109.0",
+    "@cloudflare/workers-types": "^4.20250129.0",
     "@types/node": "^20.17.12",
     "doctoc": "^2.2.1",
     "husky": "^9.1.7",
