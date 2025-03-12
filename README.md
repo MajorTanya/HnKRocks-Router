@@ -52,6 +52,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - ["Ouji no Himitsu"](#ouji-no-himitsu)
         - ["Saegusa-Sensei"](#saegusa-sensei)
         - [Special Illustration for Tsuritama's Anime Debut](#special-illustration-for-tsuritamas-anime-debut)
+        - [Cover Illustration for 2025 Edition of "Introduction to Social Choice Theory" by Toyotaka Sakai](#cover-illustration-for-2025-edition-of-introduction-to-social-choice-theory-by-toyotaka-sakai)
 - [Interviews](#interviews)
     - [Interview with Eureka (2010)](#interview-with-eureka-2010)
     - [Interview with Kono Manga ga Sugoi (2014) - Part 1](#interview-with-kono-manga-ga-sugoi-2014---part-1)
@@ -696,6 +697,28 @@ Redirects to a
 for an illustration and special message by Haruko Ichikawa, made for the Tsuritama anime debut in 2012.
 
 Example: [https://hnk.rocks/other/tsuritama](https://hnk.rocks/other/tsuritama)
+
+---
+
+#### Cover Illustration for 2025 Edition of "Introduction to Social Choice Theory" by Toyotaka Sakai
+
+<table>
+    <tr>
+        <td><code>/social-choice-illustration</code></td>
+        <td><code>/toyotaka-sakai-illustration</code></td>
+    </tr>
+</table>
+
+Redirects to a
+[bookstore listing for an economics textbook titled "(New Edition) Introduction to Social Choice Theory"](https://www.nippyo.co.jp/shop/book/9483.html)
+by [Toyotaka Sakai](https://sites.google.com/sakaioffice.co/main/home) (Professor of Economics at Keio University), for
+which Haruko Ichikawa provided the cover illustration.
+
+The illustration itself can be viewed in a larger format by clicking it and/or right-clicking it to open
+it in a new tab. There is currently no better link available to view the illustration on its own outside of this
+bookstore listing.
+
+Example: [https://hnk.rocks/other/social-choice-illustration](https://hnk.rocks/other/social-choice-illustration)
 
 ---
 

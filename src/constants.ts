@@ -28,6 +28,7 @@ export const SAEGUSA_URL = 'https://mangadex.org/title/4de59a89-a6a8-4059-9ab3-5
 export const SAKUHINSHUU_URL = 'https://mangadex.org/title/e89c85d5-3131-4fd8-bf4f-3985ef63be83/ichikawa-haruko-sakuhinshuu' as const;
 export const TSURITAMA_ILLUSTRATION_URL = 'https://dijehtranslations.wordpress.com/2018/08/29/ichikawa-haruko-special-illustration-for-tsuritama-anime-debut/' as const;
 export const VACANCES_URL = 'https://mangadex.org/chapter/39331c1e-4118-450f-b61c-3112e57ae936' as const;
+export const SOCIAL_CHOICE_URL = 'https://www.nippyo.co.jp/shop/book/9483.html' as const;
 
 // Extras
 export const ABOUT_URL = 'https://majortanya.github.io/HnKRocks-Router/' as const;

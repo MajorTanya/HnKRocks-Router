@@ -15,6 +15,7 @@ import {
     OUJI_URL,
     SAEGUSA_URL,
     SAKUHINSHUU_URL,
+    SOCIAL_CHOICE_URL,
     TSURITAMA_ILLUSTRATION_URL,
     VACANCES_URL
 } from '../constants';
@@ -92,6 +93,9 @@ export const handleOtherWorks = async (request: IRequestStrict): Promise<Respons
         case 'tsuritama':
         case 'tsuritama-illustration':
             return Response.redirect(TSURITAMA_ILLUSTRATION_URL, TEMPORARY_REDIRECT);
+        case 'social-choice-illustration':
+        case 'toyotaka-sakai-illustration':
+            return Response.redirect(SOCIAL_CHOICE_URL, TEMPORARY_REDIRECT);
         default:
             return redirectToHnKTitlePage();
     }
