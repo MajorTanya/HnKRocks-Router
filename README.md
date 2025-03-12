@@ -55,6 +55,9 @@ _All routes are relative to the base URL `https://hnk.rocks`._
     - [Interview with Kono Manga ga Sugoi (2014) - Part 2](#interview-with-kono-manga-ga-sugoi-2014---part-2)
     - [Interview with Current Obsession (2015)](#interview-with-current-obsession-2015)
     - [Interview with Entertainment Week (2016)](#interview-with-entertainment-week-2016)
+- [Community works](#community-works)
+    - [Weight Estimation Spreadsheet](#weight-estimation-spreadsheet)
+    - [Weight Estimation Tumblr Thread](#weight-estimation-tumblr-thread)
 - [Technical & Protected Routes](#technical--protected-routes)
     - [oEmbed Route](#oembed-route)
     - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
@@ -761,6 +764,58 @@ Redirects to a
 The Japanese interview was originally conducted by Entertainment Week, whose website was shut down in June 2024.
 
 Example: [https://hnk.rocks/interviews/en/entertainment-week-2016](https://hnk.rocks/interviews/en/entertainment-week-2016)
+
+---
+
+## Community works
+
+<table>
+    <tr>
+        <td><code>/community/[work]</code></td>
+    </tr>
+</table>
+
+Redirects to specific community works that aren't bigger projects like the [Fandub](#fandub-project) or
+[Short stories fandub](#short-stories-fandub-project) or translations of Ichikawa's works.
+
+_Requires providing a work, see list below.
+
+Parameters:
+
+- `[work]` - titles of works as described below.
+
+---
+
+### Weight Estimation Spreadsheet
+
+<table>
+    <tr>
+        <td><code>/community/weights</code></td>
+        <td><code>/community/weights-spreadsheet</code></td>
+    </tr>
+</table>
+
+Redirects to the
+[Google Sheets spreadsheet](https://docs.google.com/spreadsheets/d/1OjgXWMDYls9w_KV1r4CyoUCen_kpkpuYAKRoXHJVEbA/view)
+of Tumblr user [rinboz](https://www.tumblr.com/rinboz)'s weight estimations for each gem character.
+
+Example: [https://hnk.rocks/community/weights](https://hnk.rocks/community/weights)
+
+---
+
+### Weight Estimation Tumblr Thread
+
+<table>
+    <tr>
+        <td><code>/community/weights-tumblr</code></td>
+    </tr>
+</table>
+
+Redirects to [the thread of Tumblr posts](https://www.tumblr.com/rinboz/187133050585) by Tumblr user
+[rinboz](https://www.tumblr.com/rinboz) that showcases
+[the spreadsheet of character weights](#weight-estimation-spreadsheet).
+
+Example: [https://hnk.rocks/community/weights-tumblr](https://hnk.rocks/community/weights-tumblr)
 
 ---
 

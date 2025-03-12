@@ -49,3 +49,7 @@ export const ENTERTAINMENT_WEEK_2016_INTERVIEW = 'https://seizonsenryaku1.wordpr
 export const EUREKA_2010_INTERVIEW = 'https://dijehtranslations.wordpress.com/2021/10/10/ichikawa-haruko-interview-eureka-02-2010/';
 export const KONO_MANGA_2014_INTERVIEW_PT_1 = 'https://dijehtranslations.wordpress.com/2018/06/22/ichikawa-haruko-houseki-no-kuni-interview-2014/';
 export const KONO_MANGA_2014_INTERVIEW_PT_2 = 'https://dijehtranslations.wordpress.com/2018/07/18/ichikawa-haruko-2014-interview-part-2/';
+
+// Community works
+export const WEIGHT_SPREADSHEET = 'https://docs.google.com/spreadsheets/d/1OjgXWMDYls9w_KV1r4CyoUCen_kpkpuYAKRoXHJVEbA/view';
+export const WEIGHT_TUMBLR = 'https://www.tumblr.com/rinboz/187133050585';

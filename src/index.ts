@@ -20,6 +20,7 @@ import { handleShortStoriesFandub, redirectToShortStoryFandubPlaylist } from './
 import { MOVED_PERMANENTLY, PERMANENT_REDIRECT, TEMPORARY_REDIRECT } from './util/redirects';
 import { SHIMS } from './util/shims';
 import { handleInterviews } from './handlers/handleInterviews';
+import { handleCommunityWorks } from './handlers/handleCommunityWorks';
 
 const router = Router();
 
@@ -57,6 +58,8 @@ router.get('/stories-fandub/playlist', redirectToShortStoryFandubPlaylist);
 router.get('/stories-fandub/:work', handleShortStoriesFandub);
 
 router.get('/interviews?/:lang/:interviewId', handleInterviews);
+
+router.get('/community/:communityWork', handleCommunityWorks)
 
 router.get('/oembed', handleOEmbed);
 
