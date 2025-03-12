@@ -34,6 +34,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 - [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
     - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
         - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
+        - ["Pseudomorph of Love" Illustration Notes](#pseudomorph-of-love-illustration-notes)
         - ["Statue" (Japanese Volume 9 Extra)](#statue-japanese-volume-9-extra)
         - ["Freedom Love Hell" (Japanese Volume 10 Extra)](#freedom-love-hell-japanese-volume-10-extra)
         - [Original one-shot (Part of Japanese Volume 10 Extra)](#original-one-shot-part-of-japanese-volume-10-extra)
@@ -414,6 +415,23 @@ Redirects to the [Houseki no Kuni fandom wiki article](https://houseki-no-kuni.f
 the Artbook.
 
 Example: [https://hnk.rocks/other/pseudomorph](https://hnk.rocks/other/pseudomorph)
+
+---
+
+#### "Pseudomorph of Love" Illustration Notes
+
+<table>
+    <tr>
+        <td><code>/artbook-notes</code></td>
+        <td><code>/pseudomorph-notes</code></td>
+        <td><code>/pseudomorph-of-love-notes</code></td>
+    </tr>
+</table>
+
+Redirects to the [Imgur post with the translation](https://imgur.com/a/ONKBcGH) of the illustration comments by Haruko
+Ichikawa in the "Pseudomorph of Love" artbook, as translated by [Tumblr user red-dia](https://www.tumblr.com/red-dia/).
+
+Example: [https://hnk.rocks/other/artbook-notes](https://hnk.rocks/other/artbook-notes)
 
 ---
 

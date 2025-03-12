@@ -18,6 +18,7 @@ export const HNK_ONESHOT_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom#
 export const HNK_STATUE_URL = 'https://pastebin.com/mfhZPsUa' as const;
 export const HNK_DRONE_SHOW_URL = 'https://www.youtube.com/watch?v=EFIMy02Nhoc' as const;
 export const HNK_2013_ONA_PV = 'https://www.youtube.com/watch?v=3pzIQ54cwiA' as const;
+export const HNK_PSEUDOMORPH_NOTES_URL = 'https://imgur.com/a/ONKBcGH' as const;
 
 // Other Ichikawa works
 export const MOSHIMO_TOKYO_URL = 'https://mangadex.org/title/fa91e632-8556-446e-8227-b6003acab958/moshimo-tokyo' as const;

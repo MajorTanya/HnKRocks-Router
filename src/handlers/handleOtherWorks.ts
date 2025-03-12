@@ -7,6 +7,7 @@ import {
     HNK_LOREBOOK_URL,
     HNK_ONESHOT_URL,
     HNK_PARTY_AT_THE_END_URL,
+    HNK_PSEUDOMORPH_NOTES_URL,
     HNK_PSEUDOMORPH_URL,
     HNK_STATUE_URL,
     MOSHIMO_TOKYO_URL,
@@ -30,6 +31,10 @@ export const handleOtherWorks = async (request: IRequestStrict): Promise<Respons
         case 'pseudomorph':
         case 'pseudomorph-of-love':
             return Response.redirect(HNK_PSEUDOMORPH_URL, TEMPORARY_REDIRECT);
+        case 'artbook-notes':
+        case 'pseudomorph-notes':
+        case 'pseudomorph-of-love-notes':
+            return Response.redirect(HNK_PSEUDOMORPH_NOTES_URL, TEMPORARY_REDIRECT);
         case 'statue':
         case 'vol9-extra':
         case 'vol09-extra':
