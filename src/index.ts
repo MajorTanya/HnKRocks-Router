@@ -21,6 +21,7 @@ import { MOVED_PERMANENTLY, PERMANENT_REDIRECT, TEMPORARY_REDIRECT } from './uti
 import { SHIMS } from './util/shims';
 import { handleInterviews } from './handlers/handleInterviews';
 import { handleCommunityWorks } from './handlers/handleCommunityWorks';
+import { handleBlogCaptures } from './handlers/handleBlogCaptures';
 
 const router = Router();
 
@@ -34,6 +35,7 @@ router.get(SHIMS.CO_INTERVIEW.OLD, () => Response.redirect(SHIMS.CO_INTERVIEW.NE
 router.get(SHIMS.LOGIN.OLD, () => Response.redirect(SHIMS.LOGIN.NEW, PERMANENT_REDIRECT));
 router.get(SHIMS.SAEGUSA.OLD, () => Response.redirect(SHIMS.SAEGUSA.NEW, MOVED_PERMANENTLY));
 
+router.get('/(other|etc)/blog/:blogCapture', handleBlogCaptures)
 router.get('/(other|etc)/:work', handleOtherWorks);
 
 router.get('/(latest|new(est)?)(/p(ages?)?/:pageNo)?', handleLatestChapter);

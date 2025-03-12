@@ -10,6 +10,7 @@ import {
     HNK_PSEUDOMORPH_NOTES_URL,
     HNK_PSEUDOMORPH_URL,
     HNK_STATUE_URL,
+    BLOG_LAST_CAPTURE,
     MOSHIMO_TOKYO_URL,
     MUSHI_TO_UTA_URL,
     OUJI_URL,
@@ -96,6 +97,8 @@ export const handleOtherWorks = async (request: IRequestStrict): Promise<Respons
         case 'social-choice-illustration':
         case 'toyotaka-sakai-illustration':
             return Response.redirect(SOCIAL_CHOICE_URL, TEMPORARY_REDIRECT);
+        case 'blog':
+            return Response.redirect(BLOG_LAST_CAPTURE, TEMPORARY_REDIRECT);
         default:
             return redirectToHnKTitlePage();
     }

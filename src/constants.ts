@@ -30,6 +30,14 @@ export const TSURITAMA_ILLUSTRATION_URL = 'https://dijehtranslations.wordpress.c
 export const VACANCES_URL = 'https://mangadex.org/chapter/39331c1e-4118-450f-b61c-3112e57ae936' as const;
 export const SOCIAL_CHOICE_URL = 'https://www.nippyo.co.jp/shop/book/9483.html' as const;
 
+// Blog captures from the Web Archive
+export const BLOG_HNK_REVIVED = 'https://web.archive.org/web/20130325132059/http://ptpt.x0.to/pp/' as const;
+export const BLOG_PV_POSTED = 'https://web.archive.org/web/20130724074319/http://ptpt.x0.to:80/pp' as const;
+export const BLOG_VOL2_COVER_POSTED = 'https://web.archive.org/web/20140127022238/http://ptpt.x0.to:80/pp' as const;
+export const BLOG_VOL4_PROMO_POSTED = 'https://web.archive.org/web/20150615095740/http://ptpt.x0.to:80/pp' as const;
+export const BLOG_VOL6_PROMO_POSTED = 'https://web.archive.org/web/20170425211903/http://ptpt.x0.to/pp/' as const;
+export const BLOG_LAST_CAPTURE = 'https://web.archive.org/web/20221204144528/http://ptpt.x0.to/pp/' as const;
+
 // Extras
 export const ABOUT_URL = 'https://majortanya.github.io/HnKRocks-Router/' as const;
 export const EXTRA_PAGES_HOSTNAME = 'hnkrocks-extra-pages-9i8.pages.dev' as const;

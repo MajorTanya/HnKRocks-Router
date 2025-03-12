@@ -44,6 +44,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
         - [Drone Show for Volume 13 Release Countdown (2024-11-20)](#drone-show-for-volume-13-release-countdown-2024-11-20)
         - [First Volume Commemorative PV (2013-07-19)](#first-volume-commemorative-pv-2013-07-19)
+        - [Haruko Ichikawa's Defunct Blog](#haruko-ichikawas-defunct-blog)
     - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
         - ["25 Hour Vacation"](#25-hour-vacation)
         - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
@@ -578,6 +579,54 @@ Redirects to [the animated PV](https://www.youtube.com/watch?v=3pzIQ54cwiA) rele
 first volume release on the YouTube channel of Afternoon magazine.
 
 Example: [https://hnk.rocks/other/ona](https://hnk.rocks/other/ona)
+
+---
+
+#### Haruko Ichikawa's Defunct Blog
+
+<table>
+    <tr>
+        <td><code>/blog</code></td>
+        <td><code>/blog/[entry]</code></td>
+    </tr>
+</table>
+
+Redirects to captures of Haruko Ichikawa's defunct AGAR blog in the Internet Archive.
+
+Note: These "blog entries" are rarely more than one sentence long, if that.
+
+Parameters:
+
+- `[entry]` - blog captures as named in the list below (don't add the brackets)
+
+If no entry is provided, this will redirect to the last available successful capture (December 4th, 2022).
+
+Example: [https://hnk.rocks/other/blog](https://hnk.rocks/other/blog)
+
+Below is a selection of available captures that may be of interest to fans of Houseki no Kuni. There are other captures
+available pre-2013 but most graphics went uncaptured and the contents of the page are now mostly lost as a result. The
+curious are encouraged to take a look by navigating through the timeline shown at the top of the captured webpage.
+
+**Available Blog Captures**:
+
+- `/hnk-revived` | `hnk-announced`
+        - Haruko Ichikawa announcing the revival of Houseki no Kuni as a series in the Afternoon monthly magazine
+        - Example: [https://hnk.rocks/other/blog/hnk-revived](https://hnk.rocks/other/blog/hnk-revived)
+- `/hnk-pv-posted`
+        - Haruko Ichikawa announcing that volume 1 will be on sale. Accompanied by the
+      [animated PV](#first-volume-commemorative-pv-2013-07-19) made for the occasion.
+        - Example: [https://hnk.rocks/other/blog/hnk-pv-posted](https://hnk.rocks/other/blog/hnk-pv-posted)
+- `/hnk-vol2-posted`
+        - Haruko Ichikawa announcing that volume 2 will be on sale.
+        - Example: [https://hnk.rocks/other/blog/hnk-vol2-posted](https://hnk.rocks/other/blog/hnk-vol2-posted)
+- `/hnk-vol4-promo-posted`
+        - Haruko Ichikawa announcing that volume 4 will be on sale. Accompanied by a single-page comic promoting the card
+      game extra.
+        - Example: [https://hnk.rocks/other/blog/hnk-vol4-promo-posted](https://hnk.rocks/other/blog/hnk-vol4-promo-posted)
+- `/hnk-vol6-promo-posted`
+        - Haruko Ichikawa announcing that volume 6 will be on sale. Accompanied by an illustration of Hemimorphite,
+      Watermelon Tourmaline, Cairngorm, Sphene, and Peridot promoting the BAGGU collaboration extra.
+        - Example: [https://hnk.rocks/other/blog/hnk-vol6-promo-posted](https://hnk.rocks/other/blog/hnk-vol6-promo-posted)
 
 ---
 
