@@ -40,6 +40,7 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
         - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
         - [Drone Show for Volume 13 Release Countdown (2024-11-20)](#drone-show-for-volume-13-release-countdown-2024-11-20)
+        - [First Volume Commemorative PV (2013-07-19)](#first-volume-commemorative-pv-2013-07-19)
     - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
         - ["25 Hour Vacation"](#25-hour-vacation)
         - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
@@ -511,6 +512,23 @@ Redirects to the past livestream on the official Kodansha YouTube channel of the
 [Volume 13 Release Countdown Drone Show](https://www.youtube.com/watch?v=EFIMy02Nhoc).
 
 Example: [https://hnk.rocks/other/drones](https://hnk.rocks/other/drones)
+
+---
+
+#### First Volume Commemorative PV (2013-07-19)
+
+<table>
+    <tr>
+        <td><code>/ona</code></td>
+        <td><code>/2013-pv</code></td>
+        <td><code>/2013-ona</code></td>
+    </tr>
+</table>
+
+Redirects to [the animated PV](https://www.youtube.com/watch?v=3pzIQ54cwiA) released in commemoration of the manga's
+first volume release on the YouTube channel of Afternoon magazine.
+
+Example: [https://hnk.rocks/other/ona](https://hnk.rocks/other/ona)
 
 ---
 

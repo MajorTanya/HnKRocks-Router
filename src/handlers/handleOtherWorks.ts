@@ -1,5 +1,6 @@
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import {
+    HNK_2013_ONA_PV,
     HNK_DRONE_SHOW_URL,
     HNK_FREEDOM_URL,
     HNK_LOREBOOK_URL,
@@ -52,6 +53,10 @@ export const handleOtherWorks = async (request: IRequestStrict): Promise<Respons
         case 'drone-show':
         case 'vol13-drone-show':
             return Response.redirect(HNK_DRONE_SHOW_URL, TEMPORARY_REDIRECT);
+        case 'ona':
+        case '2013-pv':
+        case '2013-ona':
+            return Response.redirect(HNK_2013_ONA_PV, TEMPORARY_REDIRECT);
 
         // Non-HnK works by Ichikawa Haruko
         case '25-ji-no-vacances':
