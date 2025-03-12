@@ -3,6 +3,7 @@ import {
     HNK_2013_ONA_PV,
     HNK_DRONE_SHOW_URL,
     HNK_FREEDOM_URL,
+    HNK_LOREBOOK_MTL_URL,
     HNK_LOREBOOK_URL,
     HNK_ONESHOT_URL,
     HNK_PARTY_AT_THE_END_URL,
@@ -41,6 +42,10 @@ export const handleOtherWorks = async (request: IRequestStrict): Promise<Respons
         case 'oneshot':
         case 'one-shot':
             return Response.redirect(HNK_ONESHOT_URL, TEMPORARY_REDIRECT);
+        case 'lorebook-mtl':
+        case 'hnk-lorebook-mtl':
+        case 'vol11-extra-mtl':
+            return Response.redirect(HNK_LOREBOOK_MTL_URL, TEMPORARY_REDIRECT);
         case 'lorebook':
         case 'hnk-lorebook':
         case 'vol11-extra':

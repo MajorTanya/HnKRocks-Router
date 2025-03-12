@@ -38,6 +38,8 @@ _All routes are relative to the base URL `https://hnk.rocks`._
         - ["Freedom Love Hell" (Japanese Volume 10 Extra)](#freedom-love-hell-japanese-volume-10-extra)
         - [Original one-shot (Part of Japanese Volume 10 Extra)](#original-one-shot-part-of-japanese-volume-10-extra)
         - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
+            - [Community translation](#community-translation)
+            - [Machine-translated, non-typeset translation](#machine-translated-non-typeset-translation)
         - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
         - [Drone Show for Volume 13 Release Countdown (2024-11-20)](#drone-show-for-volume-13-release-countdown-2024-11-20)
         - [First Volume Commemorative PV (2013-07-19)](#first-volume-commemorative-pv-2013-07-19)
@@ -469,6 +471,13 @@ Example: [https://hnk.rocks/other/one-shot](https://hnk.rocks/other/one-shot)
 
 #### Lorebook (Japanese Volume 11 Extra)
 
+Update (2025-03-12):
+
+Since adding this section originally, a new fan translation has been created. The links have been changed to redirect
+to the newer translation. The MTL version can be accessed by appending `-mtl` to the previous links.
+
+##### Community translation
+
 <table>
     <tr>
         <td><code>/lorebook</code></td>
@@ -477,10 +486,28 @@ Example: [https://hnk.rocks/other/one-shot](https://hnk.rocks/other/one-shot)
     </tr>
 </table>
 
+Redirects to the
+[Google Docs document with the community-translated](https://docs.google.com/document/d/1ah3Av1OtEbYyhcfLhukj9HmpoJ6gJ829zuFkyObRRpk/view)
+version of the Volume 11 Lorebook extra, as
+[created and shared by Reddit user Terminator_Slap](https://www.reddit.com/r/LandoftheLustrous/comments/1fgfd5y/full_translation_of_life_and_culture_of/).
+Other community members have also contributed to other sections of the translation.
+
+Example: [https://hnk.rocks/other/lorebook](https://hnk.rocks/other/lorebook)
+
+##### Machine-translated, non-typeset translation
+
+<table>
+    <tr>
+        <td><code>/lorebook-mtl</code></td>
+        <td><code>/hnk-lorebook-mtl</code></td>
+        <td><code>/vol11-extra-mtl</code></td>
+    </tr>
+</table>
+
 Redirects to the [Imgur post with the machine-translated, non-typeset](https://imgur.com/a/c7Aqh4a) version of the
 Volume 11 Lorebook extra.
 
-Example: [https://hnk.rocks/other/lorebook](https://hnk.rocks/other/lorebook)
+Example: [https://hnk.rocks/other/lorebook-mtl](https://hnk.rocks/other/lorebook-mtl)
 
 ---
 

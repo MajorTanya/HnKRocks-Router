@@ -7,7 +7,8 @@ export const OEMBED_PAGE_DIRECT = 'page_direct' as const;
 
 // Houseki no Kuni
 export const HNK_COLOURED_URL = 'https://mangadex.org/title/95264f28-3ccf-4dea-ad15-5323e4766b4c/houseki-no-kuni' as const;
-export const HNK_LOREBOOK_URL = 'https://imgur.com/a/c7Aqh4a' as const;
+export const HNK_LOREBOOK_MTL_URL = 'https://imgur.com/a/c7Aqh4a' as const;
+export const HNK_LOREBOOK_URL = 'https://docs.google.com/document/d/1ah3Av1OtEbYyhcfLhukj9HmpoJ6gJ829zuFkyObRRpk/view' as const;
 export const HNK_MINIMALIST_URL = 'https://mangadex.org/title/37bf7574-641e-4665-b992-f2ba8d4652b8/houseki-no-kuni' as const;
 export const HNK_PARTY_AT_THE_END_URL = 'https://github.com/coconutcastle/HNK_party_at_the_end/blob/master/readfile.md' as const;
 export const HNK_PSEUDOMORPH_URL = 'https://houseki-no-kuni.fandom.com/wiki/Pseudomorph_of_Love' as const;
