@@ -14,9 +14,9 @@ export const HNK_PSEUDOMORPH_URL = 'https://houseki-no-kuni.fandom.com/wiki/Pseu
 export const HNK_TITLE_URL = 'https://mangadex.org/title/cade38b7-64c4-4a29-8e3c-8c283291d6c6/houseki-no-kuni' as const;
 export const HNK_FREEDOM_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom' as const;
 export const HNK_ONESHOT_URL = 'https://houseki-no-kuni.fandom.com/wiki/Freedom#Houseki_No_Kuni_One_Shot' as const;
-export const HNK_STATUE_URL = 'https://pastebin.com/mfhZPsUa';
-export const HNK_DRONE_SHOW_URL = 'https://www.youtube.com/watch?v=EFIMy02Nhoc';
-export const HNK_2013_ONA_PV = 'https://www.youtube.com/watch?v=3pzIQ54cwiA';
+export const HNK_STATUE_URL = 'https://pastebin.com/mfhZPsUa' as const;
+export const HNK_DRONE_SHOW_URL = 'https://www.youtube.com/watch?v=EFIMy02Nhoc' as const;
+export const HNK_2013_ONA_PV = 'https://www.youtube.com/watch?v=3pzIQ54cwiA' as const;
 
 // Other Ichikawa works
 export const MOSHIMO_TOKYO_URL = 'https://mangadex.org/title/fa91e632-8556-446e-8227-b6003acab958/moshimo-tokyo' as const;
@@ -24,7 +24,7 @@ export const MUSHI_TO_UTA_URL = 'https://mangadex.org/chapter/ee5d90b2-c9d6-4461
 export const OUJI_URL = 'https://mangadex.org/title/07c1eeab-3185-4932-a975-132f2115d6bd/ouji-no-himitsu' as const;
 export const SAEGUSA_URL = 'https://mangadex.org/title/4de59a89-a6a8-4059-9ab3-501f7c260223/saegusa-sensei' as const;
 export const SAKUHINSHUU_URL = 'https://mangadex.org/title/e89c85d5-3131-4fd8-bf4f-3985ef63be83/ichikawa-haruko-sakuhinshuu' as const;
-export const TSURITAMA_ILLUSTRATION_URL = 'https://dijehtranslations.wordpress.com/2018/08/29/ichikawa-haruko-special-illustration-for-tsuritama-anime-debut/';
+export const TSURITAMA_ILLUSTRATION_URL = 'https://dijehtranslations.wordpress.com/2018/08/29/ichikawa-haruko-special-illustration-for-tsuritama-anime-debut/' as const;
 export const VACANCES_URL = 'https://mangadex.org/chapter/39331c1e-4118-450f-b61c-3112e57ae936' as const;
 
 // Extras
@@ -44,12 +44,12 @@ export const SHORT_STORY_FANDUB_ON_PANDORA = 'https://www.youtube.com/watch?v=VQ
 export const SHORT_STORY_FANDUB_PLAYLIST = 'https://www.youtube.com/playlist?list=PL2ZkRB7CWewhEwcXZAY7ySBIkxLWnl2J5' as const;
 
 // Interviews
-export const CURRENT_OBSESSION_2015_INTERVIEW = 'https://www.current-obsession.com/the-kingdom-of-gems/';
-export const ENTERTAINMENT_WEEK_2016_INTERVIEW = 'https://seizonsenryaku1.wordpress.com/2018/01/28/ichikawa-haruko-interview-on-houseki-no-kuni-translation/';
-export const EUREKA_2010_INTERVIEW = 'https://dijehtranslations.wordpress.com/2021/10/10/ichikawa-haruko-interview-eureka-02-2010/';
-export const KONO_MANGA_2014_INTERVIEW_PT_1 = 'https://dijehtranslations.wordpress.com/2018/06/22/ichikawa-haruko-houseki-no-kuni-interview-2014/';
-export const KONO_MANGA_2014_INTERVIEW_PT_2 = 'https://dijehtranslations.wordpress.com/2018/07/18/ichikawa-haruko-2014-interview-part-2/';
+export const CURRENT_OBSESSION_2015_INTERVIEW = 'https://www.current-obsession.com/the-kingdom-of-gems/' as const;
+export const ENTERTAINMENT_WEEK_2016_INTERVIEW = 'https://seizonsenryaku1.wordpress.com/2018/01/28/ichikawa-haruko-interview-on-houseki-no-kuni-translation/' as const;
+export const EUREKA_2010_INTERVIEW = 'https://dijehtranslations.wordpress.com/2021/10/10/ichikawa-haruko-interview-eureka-02-2010/' as const;
+export const KONO_MANGA_2014_INTERVIEW_PT_1 = 'https://dijehtranslations.wordpress.com/2018/06/22/ichikawa-haruko-houseki-no-kuni-interview-2014/' as const;
+export const KONO_MANGA_2014_INTERVIEW_PT_2 = 'https://dijehtranslations.wordpress.com/2018/07/18/ichikawa-haruko-2014-interview-part-2/' as const;
 
 // Community works
-export const WEIGHT_SPREADSHEET = 'https://docs.google.com/spreadsheets/d/1OjgXWMDYls9w_KV1r4CyoUCen_kpkpuYAKRoXHJVEbA/view';
-export const WEIGHT_TUMBLR = 'https://www.tumblr.com/rinboz/187133050585';
+export const WEIGHT_SPREADSHEET = 'https://docs.google.com/spreadsheets/d/1OjgXWMDYls9w_KV1r4CyoUCen_kpkpuYAKRoXHJVEbA/view' as const;
+export const WEIGHT_TUMBLR = 'https://www.tumblr.com/rinboz/187133050585' as const;
