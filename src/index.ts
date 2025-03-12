@@ -59,7 +59,7 @@ router.get('/stories-fandub/:work', handleShortStoriesFandub);
 
 router.get('/interviews?/:lang/:interviewId', handleInterviews);
 
-router.get('/community/:communityWork', handleCommunityWorks)
+router.get('/community/:communityWork', handleCommunityWorks);
 
 router.get('/oembed', handleOEmbed);
 
