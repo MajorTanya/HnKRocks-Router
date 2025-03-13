@@ -1,36 +1,35 @@
 # HnK.Rocks-Router
 
-A Cloudflare Worker script for the Houseki no Kuni community, using Cloudflare KV to redirect chapter numbers to
-MangaDex links, among a few other redirecting services.
+A Cloudflare Worker for the Houseki no Kuni community & fans of Haruko Ichikawa in general.
+
+The goal of this project is to build a comprehensive catalogue of all things Houseki no Kuni & Haruko Ichikawa
 
 Many routes have convenience aliases, displayed in the tables of each route. You are free to use any of the listed
 aliases as they're functionally identical.
 
-_All routes are relative to the base URL `https://hnk.rocks`._
+*All routes are relative to the base URL `https://hnk.rocks`.*
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Houseki no Kuni on MangaDex](#houseki-no-kuni-on-mangadex)
-- [Chapter Links](#chapter-links)
-    - [Page links for a specific chapter:](#page-links-for-a-specific-chapter)
-        - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page)
-- [Latest Chapter Link](#latest-chapter-link)
-    - [Page links for latest chapter](#page-links-for-latest-chapter)
-        - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page-1)
-- [Countdown to the next Chapter](#countdown-to-the-next-chapter)
-- [Time since the last Chapter release](#time-since-the-last-chapter-release)
-- [Houseki no Kuni (Minimalist Coloured version)](#houseki-no-kuni-minimalist-coloured-version)
-- [Houseki no Kuni (Coloured version)](#houseki-no-kuni-coloured-version)
-- [The `uselessphos` Discord emote](#the-uselessphos-discord-emote)
-- [Feedback form](#feedback-form)
-- [Overview over all available Redirects](#overview-over-all-available-redirects)
-- [Fandub project](#fandub-project)
-    - [Episode links for the Fandub project](#episode-links-for-the-fandub-project)
-- [Short Stories Fandub project](#short-stories-fandub-project)
-    - [Episode links for the Short Stories Fandub project](#episode-links-for-the-short-stories-fandub-project)
-        - [Existing Episodes](#existing-episodes)
+- [Houseki no Kuni Routes](#houseki-no-kuni-routes)
+    - [Houseki no Kuni on MangaDex](#houseki-no-kuni-on-mangadex)
+    - [Chapter Links](#chapter-links)
+        - [Page links for a specific chapter:](#page-links-for-a-specific-chapter)
+            - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page)
+    - [Latest Chapter Link](#latest-chapter-link)
+        - [Page links for latest chapter](#page-links-for-latest-chapter)
+            - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page-1)
+    - [Countdown to the next Chapter](#countdown-to-the-next-chapter)
+    - [Time since the last Chapter release](#time-since-the-last-chapter-release)
+    - [Houseki no Kuni (Minimalist Coloured version)](#houseki-no-kuni-minimalist-coloured-version)
+    - [Houseki no Kuni (Coloured version)](#houseki-no-kuni-coloured-version)
+    - [Fandub project](#fandub-project)
+        - [Episode links for the Fandub project](#episode-links-for-the-fandub-project)
+    - [Short Stories Fandub project](#short-stories-fandub-project)
+        - [Episode links for the Short Stories Fandub project](#episode-links-for-the-short-stories-fandub-project)
+            - [Existing Episodes](#existing-episodes)
 - [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
     - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
         - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
@@ -63,6 +62,10 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 - [Community works](#community-works)
     - [Weight Estimation Spreadsheet](#weight-estimation-spreadsheet)
     - [Weight Estimation Tumblr Thread](#weight-estimation-tumblr-thread)
+- [Miscellaneous Routes](#miscellaneous-routes)
+    - [Overview over all available Redirects](#overview-over-all-available-redirects)
+    - [The `uselessphos` Discord emote](#the-uselessphos-discord-emote)
+    - [Feedback form](#feedback-form)
 - [Technical & Protected Routes](#technical--protected-routes)
     - [oEmbed Route](#oembed-route)
     - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
@@ -70,8 +73,9 @@ _All routes are relative to the base URL `https://hnk.rocks`._
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
+## Houseki no Kuni Routes
 
-## Houseki no Kuni on MangaDex
+### Houseki no Kuni on MangaDex
 
 <table>
     <tr>
@@ -86,7 +90,7 @@ Usage: [https://hnk.rocks](https://hnk.rocks)
 
 ---
 
-## Chapter Links
+### Chapter Links
 
 <table>
     <tr>
@@ -107,7 +111,7 @@ Parameters:
 
 Example: [https://hnk.rocks/chapter/1](https://hnk.rocks/chapter/1)
 
-### Page links for a specific chapter:
+#### Page links for a specific chapter:
 
 <table>
     <tr>
@@ -129,7 +133,7 @@ page by default.
 
 Example: [https://hnk.rocks/chapter/1/page/2](https://hnk.rocks/chapter/1/page/2)
 
-#### Page image embed (Discord, etc.) links for a specific page
+##### Page image embed (Discord, etc.) links for a specific page
 
 <table>
     <tr>
@@ -145,7 +149,7 @@ Example: [https://hnk.rocks/chapter/1/page/2/i](https://hnk.rocks/chapter/1/page
 
 ---
 
-## Latest Chapter Link
+### Latest Chapter Link
 
 <table>
     <tr>
@@ -162,7 +166,7 @@ chapter.
 
 Example: [https://hnk.rocks/latest](https://hnk.rocks/latest)
 
-### Page links for latest chapter
+#### Page links for latest chapter
 
 <table>
     <tr>
@@ -183,7 +187,7 @@ Parameters:
 
 Example: [https://hnk.rocks/latest/page/1](https://hnk.rocks/latest/page/1)
 
-#### Page image embed (Discord, etc.) links for a specific page
+##### Page image embed (Discord, etc.) links for a specific page
 
 <table>
     <tr>
@@ -199,7 +203,7 @@ Example: [https://hnk.rocks/latest/page/1/i](https://hnk.rocks/latest/page/1/i)
 
 ---
 
-## Countdown to the next Chapter
+### Countdown to the next Chapter
 
 <table>
     <tr>
@@ -207,7 +211,7 @@ Example: [https://hnk.rocks/latest/page/1/i](https://hnk.rocks/latest/page/1/i)
     </tr>
 </table>
 
-Provides a countdown to the (estimated) next chapter release. The exact hours, minutes, and seconds aren't perfectly
+Provides a countdown to the (estimated) next chapter release. The exact hours, minutes, and seconds won't be perfectly
 accurate, but give a broad picture.
 
 Supports Social Media link previews, so just sending the link to e.g. Discord will show the remaining time.
@@ -216,7 +220,7 @@ Usage: [https://hnk.rocks/next](https://hnk.rocks/next)
 
 ---
 
-## Time since the last Chapter release
+### Time since the last Chapter release
 
 <table>
     <tr>
@@ -226,11 +230,13 @@ Usage: [https://hnk.rocks/next](https://hnk.rocks/next)
 
 Provides a counter of the time elapsed since the last chapter was released, as scanlated by the MangaDex user Tissal.
 
+Supports Social Media link previews, so just sending the link to e.g. Discord will show the remaining time.
+
 Usage: [https://hnk.rocks/since](https://hnk.rocks/since)
 
 ---
 
-## Houseki no Kuni (Minimalist Coloured version)
+### Houseki no Kuni (Minimalist Coloured version)
 
 <table>
     <tr>
@@ -246,7 +252,7 @@ Example: [https://hnk.rocks/minimalist](https://hnk.rocks/minimalist)
 
 ---
 
-## Houseki no Kuni (Coloured version)
+### Houseki no Kuni (Coloured version)
 
 <table>
     <tr>
@@ -265,49 +271,7 @@ Example: [https://hnk.rocks/colour](https://hnk.rocks/colour)
 
 ---
 
-## The `uselessphos` Discord emote
-
-<table>
-    <tr>
-        <td><code>/uselessphos</code></td>
-    </tr>
-</table>
-
-Shows the `uselessphos` Discord Emote.
-
-Usage: [https://hnk.rocks/uselessphos](https://hnk.rocks/uselessphos)
-
----
-
-## Feedback form
-
-<table>
-    <tr>
-        <td><code>/feedback</code></td>
-    </tr>
-</table>
-
-Redirects to a [Google Form to provide feedback and bug reports about HnK.rocks](https://forms.gle/QRGGriFizperPnZM6).
-
-Usage: [https://hnk.rocks/feedback](https://hnk.rocks/feedback)
-
----
-
-## Overview over all available Redirects
-
-<table>
-    <tr>
-        <td><code>/about</code></td>
-    </tr>
-</table>
-
-Redirects to this [Redirection Overview](https://majortanya.github.io/HnKRocks-Router/).
-
-Usage: [https://hnk.rocks/about](https://hnk.rocks/about)
-
----
-
-## Fandub project
+### Fandub project
 
 <table>
     <tr>
@@ -320,7 +284,7 @@ Redirects to the YouTube Playlist for the Houseki no Kuni Fandub Project.
 
 Example: [https://hnk.rocks/fandub](https://hnk.rocks/fandub)
 
-### Episode links for the Fandub project
+#### Episode links for the Fandub project
 
 <table>
     <tr>
@@ -343,7 +307,7 @@ Example: [https://hnk.rocks/fandub/episode/1](https://hnk.rocks/fandub/episode/1
 
 ---
 
-## Short Stories Fandub project
+### Short Stories Fandub project
 
 <table>
     <tr>
@@ -356,7 +320,7 @@ Redirects to the YouTube Playlist for the Ichikawa Short Stories Fandub project.
 
 Example: [https://hnk.rocks/stories-fandub](https://hnk.rocks/stories-fandub)
 
-### Episode links for the Short Stories Fandub project
+#### Episode links for the Short Stories Fandub project
 
 <table>
     <tr>
@@ -373,12 +337,11 @@ Parameters:
 
 *Requires providing a work title.*
 
-#### Existing Episodes
+##### Existing Episodes
 
-- "On Pandora" short story from volume 2 of the [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology).
-        - `/on-pandora` | `/pandora`
-
-Example: [https://hnk.rocks/stories-fandub/on-pandora](https://hnk.rocks/stories-fandub/on-pandora)
+- `/on-pandora` | `/pandora`
+        - "On Pandora" short story from volume 2 of the [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology).
+        - Example: [https://hnk.rocks/stories-fandub/on-pandora](https://hnk.rocks/stories-fandub/on-pandora)
 
 ---
 
@@ -399,7 +362,7 @@ Parameters:
 
 - `[work]` - titles of works as described below.
 
-_All these work URLs are relative to `https://hnk.rocks/other` or `https://hnk.rocks/etc`._
+*All these work URLs are relative to `https://hnk.rocks/other` or `https://hnk.rocks/etc`.*
 
 ### Works directly related to Houseki no Kuni
 
@@ -783,10 +746,10 @@ Example: [https://hnk.rocks/other/social-choice-illustration](https://hnk.rocks/
 Redirects to interviews conducted about Houseki no Kuni or other projects of Haruko Ichikawa. Some may only be available
 in specific languages.
 
-_Requires providing a language AND an interview._ Please refer to the listed interviews below for the correct
+*Requires providing a language AND an interview.* Please refer to the listed interviews below for the correct
 parameters.
 
-_All these work URLs are relative to `https://hnk.rocks/interviews` or `https://hnk.rocks/interview`._
+*All these work URLs are relative to `https://hnk.rocks/interviews` or `https://hnk.rocks/interview`.*
 
 Parameters:
 
@@ -895,7 +858,7 @@ Example: [https://hnk.rocks/interviews/en/entertainment-week-2016](https://hnk.r
 Redirects to specific community works that aren't bigger projects like the [Fandub](#fandub-project) or
 [Short stories fandub](#short-stories-fandub-project) or translations of Ichikawa's works.
 
-_Requires providing a work, see list below.
+*Requires providing a work, see list below.*
 
 Parameters:
 
@@ -933,6 +896,51 @@ Redirects to [the thread of Tumblr posts](https://www.tumblr.com/rinboz/18713305
 [the spreadsheet of character weights](#weight-estimation-spreadsheet).
 
 Example: [https://hnk.rocks/community/weights-tumblr](https://hnk.rocks/community/weights-tumblr)
+
+---
+
+## Miscellaneous Routes
+
+### Overview over all available Redirects
+
+<table>
+    <tr>
+        <td><code>/about</code></td>
+    </tr>
+</table>
+
+Redirects to this [Redirection Overview](https://majortanya.github.io/HnKRocks-Router/).
+
+Usage: [https://hnk.rocks/about](https://hnk.rocks/about)
+
+---
+
+### The `uselessphos` Discord emote
+
+<table>
+    <tr>
+        <td><code>/uselessphos</code></td>
+    </tr>
+</table>
+
+Shows the `uselessphos` Discord Emote.
+
+Usage: [https://hnk.rocks/uselessphos](https://hnk.rocks/uselessphos)
+
+---
+
+### Feedback form
+
+<table>
+    <tr>
+        <td><code>/feedback</code></td>
+    </tr>
+</table>
+
+Redirects to a [Google Form to provide feedback and bug reports about HnK.rocks](https://forms.gle/QRGGriFizperPnZM6).
+
+Usage: [https://hnk.rocks/feedback](https://hnk.rocks/feedback)
+
 
 ---
 
