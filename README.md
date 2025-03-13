@@ -14,65 +14,66 @@ aliases as they're functionally identical.
 **Table of Contents**
 
 - [Houseki no Kuni Routes](#houseki-no-kuni-routes)
-    - [Houseki no Kuni on MangaDex](#houseki-no-kuni-on-mangadex)
-    - [Chapter Links](#chapter-links)
-        - [Page links for a specific chapter:](#page-links-for-a-specific-chapter)
-            - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page)
-    - [Latest Chapter Link](#latest-chapter-link)
-        - [Page links for latest chapter](#page-links-for-latest-chapter)
-            - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page-1)
-    - [Countdown to the next Chapter](#countdown-to-the-next-chapter)
-    - [Time since the last Chapter release](#time-since-the-last-chapter-release)
-    - [Houseki no Kuni (Minimalist Coloured version)](#houseki-no-kuni-minimalist-coloured-version)
-    - [Houseki no Kuni (Coloured version)](#houseki-no-kuni-coloured-version)
-    - [Fandub project](#fandub-project)
-        - [Episode links for the Fandub project](#episode-links-for-the-fandub-project)
-    - [Short Stories Fandub project](#short-stories-fandub-project)
-        - [Episode links for the Short Stories Fandub project](#episode-links-for-the-short-stories-fandub-project)
-            - [Existing Episodes](#existing-episodes)
+  - [Houseki no Kuni on MangaDex](#houseki-no-kuni-on-mangadex)
+  - [Chapter Links](#chapter-links)
+    - [Page links for a specific chapter:](#page-links-for-a-specific-chapter)
+      - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page)
+  - [Latest Chapter Link](#latest-chapter-link)
+    - [Page links for latest chapter](#page-links-for-latest-chapter)
+      - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page-1)
+  - [Countdown to the next Chapter](#countdown-to-the-next-chapter)
+  - [Time since the last Chapter release](#time-since-the-last-chapter-release)
+  - [Houseki no Kuni (Minimalist Coloured version)](#houseki-no-kuni-minimalist-coloured-version)
+  - [Houseki no Kuni (Coloured version)](#houseki-no-kuni-coloured-version)
+  - [Fandub project](#fandub-project)
+    - [Episode links for the Fandub project](#episode-links-for-the-fandub-project)
+  - [Short Stories Fandub project](#short-stories-fandub-project)
+    - [Episode links for the Short Stories Fandub project](#episode-links-for-the-short-stories-fandub-project)
+      - [Existing Episodes](#existing-episodes)
 - [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
-    - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
-        - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
-        - ["Pseudomorph of Love" Illustration Notes](#pseudomorph-of-love-illustration-notes)
-        - ["Statue" (Japanese Volume 9 Extra)](#statue-japanese-volume-9-extra)
-        - ["Freedom Love Hell" (Japanese Volume 10 Extra)](#freedom-love-hell-japanese-volume-10-extra)
-        - [Original one-shot (Part of Japanese Volume 10 Extra)](#original-one-shot-part-of-japanese-volume-10-extra)
-        - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
-            - [Community translation](#community-translation)
-            - [Machine-translated, non-typeset translation](#machine-translated-non-typeset-translation)
-        - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
-        - [Drone Show for Volume 13 Release Countdown (2024-11-20)](#drone-show-for-volume-13-release-countdown-2024-11-20)
-        - [First Volume Commemorative PV (2013-07-19)](#first-volume-commemorative-pv-2013-07-19)
-        - [Haruko Ichikawa's Defunct Blog](#haruko-ichikawas-defunct-blog)
-    - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
-        - ["25 Hour Vacation"](#25-hour-vacation)
-        - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
-        - ["Moshimo, Tokyo"](#moshimo-tokyo)
-        - ["Mushi to Uta"](#mushi-to-uta)
-        - ["Ouji no Himitsu"](#ouji-no-himitsu)
-        - ["Saegusa-Sensei"](#saegusa-sensei)
-        - [Special Illustration for Tsuritama's Anime Debut](#special-illustration-for-tsuritamas-anime-debut)
-        - [Cover Illustration for 2025 Edition of "Introduction to Social Choice Theory" by Toyotaka Sakai](#cover-illustration-for-2025-edition-of-introduction-to-social-choice-theory-by-toyotaka-sakai)
+  - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
+    - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
+    - ["Pseudomorph of Love" Illustration Notes](#pseudomorph-of-love-illustration-notes)
+    - ["Statue" (Japanese Volume 9 Extra)](#statue-japanese-volume-9-extra)
+    - ["Freedom Love Hell" (Japanese Volume 10 Extra)](#freedom-love-hell-japanese-volume-10-extra)
+    - [Original one-shot (Part of Japanese Volume 10 Extra)](#original-one-shot-part-of-japanese-volume-10-extra)
+    - [Lorebook (Japanese Volume 11 Extra)](#lorebook-japanese-volume-11-extra)
+      - [Community translation](#community-translation)
+      - [Machine-translated, non-typeset translation](#machine-translated-non-typeset-translation)
+    - ["Party at the End" (Japanese Volume 12 Extra)](#party-at-the-end-japanese-volume-12-extra)
+    - [Drone Show for Volume 13 Release Countdown (2024-11-20)](#drone-show-for-volume-13-release-countdown-2024-11-20)
+    - [First Volume Commemorative PV (2013-07-19)](#first-volume-commemorative-pv-2013-07-19)
+    - [Haruko Ichikawa's Defunct Blog](#haruko-ichikawas-defunct-blog)
+  - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
+    - ["25 Hour Vacation"](#25-hour-vacation)
+    - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
+    - ["Moshimo, Tokyo"](#moshimo-tokyo)
+    - ["Mushi to Uta"](#mushi-to-uta)
+    - ["Ouji no Himitsu"](#ouji-no-himitsu)
+    - ["Saegusa-Sensei"](#saegusa-sensei)
+    - [Special Illustration for Tsuritama's Anime Debut](#special-illustration-for-tsuritamas-anime-debut)
+    - [Cover Illustration for 2025 Edition of "Introduction to Social Choice Theory" by Toyotaka Sakai](#cover-illustration-for-2025-edition-of-introduction-to-social-choice-theory-by-toyotaka-sakai)
 - [Interviews](#interviews)
-    - [Interview with Eureka (2010)](#interview-with-eureka-2010)
-    - [Interview with Kono Manga ga Sugoi (2014) - Part 1](#interview-with-kono-manga-ga-sugoi-2014---part-1)
-    - [Interview with Kono Manga ga Sugoi (2014) - Part 2](#interview-with-kono-manga-ga-sugoi-2014---part-2)
-    - [Interview with Current Obsession (2015)](#interview-with-current-obsession-2015)
-    - [Interview with Entertainment Week (2016)](#interview-with-entertainment-week-2016)
+  - [Interview with Eureka (2010)](#interview-with-eureka-2010)
+  - [Interview with Kono Manga ga Sugoi (2014) - Part 1](#interview-with-kono-manga-ga-sugoi-2014---part-1)
+  - [Interview with Kono Manga ga Sugoi (2014) - Part 2](#interview-with-kono-manga-ga-sugoi-2014---part-2)
+  - [Interview with Current Obsession (2015)](#interview-with-current-obsession-2015)
+  - [Interview with Entertainment Week (2016)](#interview-with-entertainment-week-2016)
 - [Community works](#community-works)
-    - [Weight Estimation Spreadsheet](#weight-estimation-spreadsheet)
-    - [Weight Estimation Tumblr Thread](#weight-estimation-tumblr-thread)
+  - [Weight Estimation Spreadsheet](#weight-estimation-spreadsheet)
+  - [Weight Estimation Tumblr Thread](#weight-estimation-tumblr-thread)
 - [Miscellaneous Routes](#miscellaneous-routes)
-    - [Overview over all available Redirects](#overview-over-all-available-redirects)
-    - [The `uselessphos` Discord emote](#the-uselessphos-discord-emote)
-    - [Feedback form](#feedback-form)
+  - [Overview over all available Redirects](#overview-over-all-available-redirects)
+  - [The `uselessphos` Discord emote](#the-uselessphos-discord-emote)
+  - [Feedback form](#feedback-form)
 - [Technical & Protected Routes](#technical--protected-routes)
-    - [oEmbed Route](#oembed-route)
-    - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
+  - [oEmbed Route](#oembed-route)
+  - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
+
 ## Houseki no Kuni Routes
 
 ### Houseki no Kuni on MangaDex
@@ -340,8 +341,8 @@ Parameters:
 ##### Existing Episodes
 
 - `/on-pandora` | `/pandora`
-        - "On Pandora" short story from volume 2 of the [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology).
-        - Example: [https://hnk.rocks/stories-fandub/on-pandora](https://hnk.rocks/stories-fandub/on-pandora)
+  - "On Pandora" short story from volume 2 of the [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology).
+    - Example: [https://hnk.rocks/stories-fandub/on-pandora](https://hnk.rocks/stories-fandub/on-pandora)
 
 ---
 
@@ -573,23 +574,23 @@ curious are encouraged to take a look by navigating through the timeline shown a
 **Available Blog Captures**:
 
 - `/hnk-revived` | `hnk-announced`
-        - Haruko Ichikawa announcing the revival of Houseki no Kuni as a series in the Afternoon monthly magazine
-        - Example: [https://hnk.rocks/other/blog/hnk-revived](https://hnk.rocks/other/blog/hnk-revived)
+  - Haruko Ichikawa announcing the revival of Houseki no Kuni as a series in the Afternoon monthly magazine
+    - Example: [https://hnk.rocks/other/blog/hnk-revived](https://hnk.rocks/other/blog/hnk-revived)
 - `/hnk-pv-posted`
-        - Haruko Ichikawa announcing that volume 1 will be on sale. Accompanied by the
-      [animated PV](#first-volume-commemorative-pv-2013-07-19) made for the occasion.
-        - Example: [https://hnk.rocks/other/blog/hnk-pv-posted](https://hnk.rocks/other/blog/hnk-pv-posted)
+  - Haruko Ichikawa announcing that volume 1 will be on sale. Accompanied by the
+    [animated PV](#first-volume-commemorative-pv-2013-07-19) made for the occasion.
+    - Example: [https://hnk.rocks/other/blog/hnk-pv-posted](https://hnk.rocks/other/blog/hnk-pv-posted)
 - `/hnk-vol2-posted`
-        - Haruko Ichikawa announcing that volume 2 will be on sale.
-        - Example: [https://hnk.rocks/other/blog/hnk-vol2-posted](https://hnk.rocks/other/blog/hnk-vol2-posted)
+  - Haruko Ichikawa announcing that volume 2 will be on sale.
+    - Example: [https://hnk.rocks/other/blog/hnk-vol2-posted](https://hnk.rocks/other/blog/hnk-vol2-posted)
 - `/hnk-vol4-promo-posted`
-        - Haruko Ichikawa announcing that volume 4 will be on sale. Accompanied by a single-page comic promoting the card
-      game extra.
-        - Example: [https://hnk.rocks/other/blog/hnk-vol4-promo-posted](https://hnk.rocks/other/blog/hnk-vol4-promo-posted)
+  - Haruko Ichikawa announcing that volume 4 will be on sale. Accompanied by a single-page comic promoting the card
+    game extra.
+    - Example: [https://hnk.rocks/other/blog/hnk-vol4-promo-posted](https://hnk.rocks/other/blog/hnk-vol4-promo-posted)
 - `/hnk-vol6-promo-posted`
-        - Haruko Ichikawa announcing that volume 6 will be on sale. Accompanied by an illustration of Hemimorphite,
-      Watermelon Tourmaline, Cairngorm, Sphene, and Peridot promoting the BAGGU collaboration extra.
-        - Example: [https://hnk.rocks/other/blog/hnk-vol6-promo-posted](https://hnk.rocks/other/blog/hnk-vol6-promo-posted)
+  - Haruko Ichikawa announcing that volume 6 will be on sale. Accompanied by an illustration of Hemimorphite,
+    Watermelon Tourmaline, Cairngorm, Sphene, and Peridot promoting the BAGGU collaboration extra.
+    - Example: [https://hnk.rocks/other/blog/hnk-vol6-promo-posted](https://hnk.rocks/other/blog/hnk-vol6-promo-posted)
 
 ---
 
