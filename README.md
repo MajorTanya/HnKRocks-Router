@@ -970,4 +970,5 @@ backend.
 
 Protected Route. Used to add new chapter links and to update the `/latest`, `/since`, and `/next` endpoints.
 
-hnk.rocks made by `@majortanya` on Discord.
+hnk.rocks made by `@majortanya` on Discord. Entire router source code available on the
+[GitHub repository](https://github.com/MajorTanya/HnKRocks-Router).
