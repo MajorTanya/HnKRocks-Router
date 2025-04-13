@@ -1,7 +1,6 @@
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import { OEMBED_PAGE_DIRECT } from '../constants';
 import { redirectToHnKTitlePage } from './handleChapters';
-import type { Env } from '../types';
 
 // we only check for a maximum of 5 versions of a chapter ([first upload] > v2 > v3 > v4 > v5 > give up)
 const MAX_SUPPORTED_VERSION = 5 as const;

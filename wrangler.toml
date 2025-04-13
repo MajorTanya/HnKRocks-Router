@@ -1,6 +1,6 @@
 name = "hnkrocks-router"
 main = "src/index.ts"
-compatibility_date = "2025-03-10"
+compatibility_date = "2025-04-01"
 kv_namespaces = [
     { binding = "ChapterToMDLink", preview_id = "c5b18e73c5a74d779d3d757d01d732f7", id = "0c5e38182c574232bf51eca1dc577298" },
     { binding = "ChapterToUploader", preview_id = "b0773eef61aa448687049f0bb9cb0156", id = "7229e8f3147442179f7615caf0c1b634" },

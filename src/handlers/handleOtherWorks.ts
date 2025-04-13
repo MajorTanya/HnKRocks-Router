@@ -1,5 +1,6 @@
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import {
+    BLOG_LAST_CAPTURE,
     HNK_2013_ONA_PV,
     HNK_DRONE_SHOW_URL,
     HNK_FREEDOM_URL,
@@ -10,7 +11,6 @@ import {
     HNK_PSEUDOMORPH_NOTES_URL,
     HNK_PSEUDOMORPH_URL,
     HNK_STATUE_URL,
-    BLOG_LAST_CAPTURE,
     MOSHIMO_TOKYO_URL,
     MUSHI_TO_UTA_URL,
     OUJI_URL,
