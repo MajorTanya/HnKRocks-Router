@@ -64,7 +64,7 @@ router.get('/interviews?/:lang/:interviewId', handleInterviews);
 
 router.get('/community/:communityWork', handleCommunityWorks);
 
-router.get('/covers?/:volNum', handleCovers);
+router.get('/covers?/:volNum(/full)?', handleCovers);
 
 router.get('/oembed', handleOEmbed);
 

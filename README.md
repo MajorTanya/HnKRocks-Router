@@ -31,6 +31,7 @@ aliases as they're functionally identical.
     - [Episode links for the Short Stories Fandub project](#episode-links-for-the-short-stories-fandub-project)
       - [Existing Episodes](#existing-episodes)
   - [Volume Cover Embeds](#volume-cover-embeds)
+    - [Extended Volume Cover Embeds](#extended-volume-cover-embeds)
 - [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
   - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
     - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
@@ -369,6 +370,33 @@ image embed of the specific volume cover.
 *Requires providing a volume number.*
 
 Example: [https://hnk.rocks/cover/1](https://hnk.rocks/cover/1)
+
+#### Extended Volume Cover Embeds
+
+<table>
+    <tr>
+        <td><code>/cover/[volumeNumber]/full</code></td>
+        <td><code>/covers/[volumeNumber]/full</code></td>
+    </tr>
+</table>
+
+Parameters:
+
+- `[volumeNumber]` - integers (don't add the brackets)
+
+Links directly to the [HnK Fandom Wiki](https://houseki-no-kuni.fandom.com/wiki/Houseki_no_Kuni_Wiki)'s extended volume
+cover images. The volume number can be 0-padded if desired, so 1 and 01 are both acceptable parameters for volume 1's
+extended cover.
+
+When posted to a platform like Discord, it provides a specially formatted HTML response which will be rendered as an
+image embed of the specific extended volume cover.
+
+Note: Since not all extended covers are available at this time, the embed will add a note for missing extended covers
+and show the normal cover instead.
+
+*Requires providing a volume number.*
+
+Example: [https://hnk.rocks/cover/1/full](https://hnk.rocks/cover/1/full)
 
 ---
 

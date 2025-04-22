@@ -5,5 +5,6 @@ export type Shim = {
 
 export type VolumeCoverEntry = {
     cover: string;
+    fullCover: string | null;
     wiki: string;
 };

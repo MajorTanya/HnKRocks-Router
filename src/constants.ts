@@ -70,72 +70,100 @@ export const WEIGHT_TUMBLR = 'https://www.tumblr.com/rinboz/187133050585' as con
 
 // Covers
 export const VOL_01_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/4/43/Book_1.jpeg/revision/latest?cb=20210511140107' as const;
+export const VOL_01_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/2/2d/Volume_1_Full.jpg/revision/latest?cb=20200202052435' as const;
 export const VOL_02_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/a/ae/Book_2.jpeg/revision/latest?cb=20210511140447' as const;
+export const VOL_02_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/a/ac/Volume_2_Full.jpg/revision/latest?cb=20200202052435' as const;
 export const VOL_03_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/7/79/Book_3.jpeg/revision/latest?cb=20210511140636' as const;
+export const VOL_03_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/6/69/Volume_3_Full.jpg/revision/latest?cb=20200202052436' as const;
 export const VOL_04_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/2/2e/Book_4.jpeg/revision/latest?cb=20210511141352' as const;
+export const VOL_04_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/c/cf/Volume_4_Full.jpg/revision/latest?cb=20200202052437' as const;
 export const VOL_05_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/f/fc/Book_5.jpeg/revision/latest?cb=20210511141559' as const;
+export const VOL_05_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/4/4c/Volume_5_Full.jpg/revision/latest?cb=20200202052438' as const;
 export const VOL_06_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/3/32/Book_6.jpg/revision/latest?cb=20210511142039' as const;
+export const VOL_06_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/2/2a/Volume_6_Full.jpg/revision/latest?cb=20200202052438' as const;
 export const VOL_07_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/6/65/Lapis_and_phos-0.jpg/revision/latest?cb=20171031004945' as const;
+export const VOL_07_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/0/0c/Volume_7_Full.jpg/revision/latest?cb=20200202052439' as const;
 export const VOL_08_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/6/60/Thumb_83523_book_small.jpg/revision/latest?cb=20171101120559' as const;
+export const VOL_08_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/1/18/Volume_8_Full.jpg/revision/latest?cb=20200202052440' as const;
 export const VOL_09_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/5/5f/Book_9.jpg/revision/latest?cb=20210511142854' as const;
+export const VOL_09_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/4/48/Volume9Full.png/revision/latest?cb=20250116065041' as const;
 export const VOL_10_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/3/31/Book_10.jpg/revision/latest?cb=20210511143031' as const;
+export const VOL_10_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/a/a0/Volume10Full.jpg/revision/latest?cb=20241020211531' as const;
 export const VOL_11_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/1/18/Book_11.jpg/revision/latest?cb=20210511143205' as const;
+export const VOL_11_COVER_FULL = null;
 export const VOL_12_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/e/e0/Yassvolume12.jpg/revision/latest?cb=20221122221402' as const;
+export const VOL_12_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/f/f4/Volume12extendedcover.png/revision/latest?cb=20230802170832' as const;
 export const VOL_13_COVER = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/a/a1/Vol13CoverJP.jpeg/revision/latest?cb=20240921231216' as const;
+export const VOL_13_COVER_FULL = 'https://static.wikia.nocookie.net/houseki-no-kuni/images/a/a8/Volume13Full.png/revision/latest?cb=20250216055403' as const;
+
 export const COVER_MAP = {
     '1': {
         cover: VOL_01_COVER,
+        fullCover: VOL_01_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_1'
     } as const satisfies VolumeCoverEntry,
     '2': {
         cover: VOL_02_COVER,
+        fullCover: VOL_02_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_2'
     } as const satisfies VolumeCoverEntry,
     '3': {
         cover: VOL_03_COVER,
+        fullCover: VOL_03_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_3'
     } as const satisfies VolumeCoverEntry,
     '4': {
         cover: VOL_04_COVER,
+        fullCover: VOL_04_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_4'
     } as const satisfies VolumeCoverEntry,
     '5': {
         cover: VOL_05_COVER,
+        fullCover: VOL_05_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_5'
     } as const satisfies VolumeCoverEntry,
     '6': {
         cover: VOL_06_COVER,
+        fullCover: VOL_06_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_6'
     } as const satisfies VolumeCoverEntry,
     '7': {
         cover: VOL_07_COVER,
+        fullCover: VOL_07_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_7'
     } as const satisfies VolumeCoverEntry,
     '8': {
         cover: VOL_08_COVER,
+        fullCover: VOL_08_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_8'
     } as const satisfies VolumeCoverEntry,
     '9': {
         cover: VOL_09_COVER,
+        fullCover: VOL_09_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_9'
     } as const satisfies VolumeCoverEntry,
     '10': {
         cover: VOL_10_COVER,
+        fullCover: VOL_10_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_10'
     } as const satisfies VolumeCoverEntry,
     '11': {
         cover: VOL_11_COVER,
+        fullCover: VOL_11_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_11'
     } as const satisfies VolumeCoverEntry,
     '12': {
         cover: VOL_12_COVER,
+        fullCover: VOL_12_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_12'
     } as const satisfies VolumeCoverEntry,
     '13': {
         cover: VOL_13_COVER,
+        fullCover: VOL_13_COVER_FULL,
         wiki: 'https://houseki-no-kuni.fandom.com/wiki/Volume_13'
     } as const satisfies VolumeCoverEntry
 } as const satisfies {
     [k: string]: VolumeCoverEntry
 };
+
 export type CoverMapType = Record<string, typeof COVER_MAP[(keyof typeof COVER_MAP)]>;
