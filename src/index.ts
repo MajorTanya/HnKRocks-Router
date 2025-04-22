@@ -22,6 +22,7 @@ import { SHIMS } from './util/shims';
 import { handleInterviews } from './handlers/handleInterviews';
 import { handleCommunityWorks } from './handlers/handleCommunityWorks';
 import { handleBlogCaptures } from './handlers/handleBlogCaptures';
+import { handleCovers } from './handlers/handleCovers';
 
 const router = Router();
 
@@ -62,6 +63,8 @@ router.get('/stories-fandub/:work', handleShortStoriesFandub);
 router.get('/interviews?/:lang/:interviewId', handleInterviews);
 
 router.get('/community/:communityWork', handleCommunityWorks);
+
+router.get('/covers?/:volNum', handleCovers);
 
 router.get('/oembed', handleOEmbed);
 

@@ -30,6 +30,7 @@ aliases as they're functionally identical.
   - [Short Stories Fandub project](#short-stories-fandub-project)
     - [Episode links for the Short Stories Fandub project](#episode-links-for-the-short-stories-fandub-project)
       - [Existing Episodes](#existing-episodes)
+  - [Volume Cover Embeds](#volume-cover-embeds)
 - [Other works by Haruko Ichikawa](#other-works-by-haruko-ichikawa)
   - [Works directly related to Houseki no Kuni](#works-directly-related-to-houseki-no-kuni)
     - ["Pseudomorph of Love" (Artbook)](#pseudomorph-of-love-artbook)
@@ -343,6 +344,31 @@ Parameters:
 - `/on-pandora` | `/pandora`
   - "On Pandora" short story from volume 2 of the [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology).
     - Example: [https://hnk.rocks/stories-fandub/on-pandora](https://hnk.rocks/stories-fandub/on-pandora)
+
+---
+
+### Volume Cover Embeds
+
+<table>
+    <tr>
+        <td><code>/cover/[volumeNumber]</code></td>
+        <td><code>/covers/[volumeNumber]</code></td>
+    </tr>
+</table>
+
+Parameters:
+
+- `[volumeNumber]` - integers (don't add the brackets)
+
+Links directly to the [HnK Fandom Wiki](https://houseki-no-kuni.fandom.com/wiki/Houseki_no_Kuni_Wiki)'s volume cover
+images. The volume number can be 0-padded if desired, so 1 and 01 are both acceptable parameters for volume 1's cover.
+
+When posted to a platform like Discord, it provides a specially formatted HTML response which will be rendered as an
+image embed of the specific volume cover.
+
+*Requires providing a volume number.*
+
+Example: [https://hnk.rocks/cover/1](https://hnk.rocks/cover/1)
 
 ---
 

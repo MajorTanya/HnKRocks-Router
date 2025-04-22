@@ -1,6 +1,6 @@
 {
   "name": "hnkrocks-chapter-router",
-  "version": "2.24.0",
+  "version": "2.25.0",
   "dependencies": {
     "itty-router": "^5.0.18"
   },
