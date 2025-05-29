@@ -1,3 +1,1 @@
 doctoc README.md --title "**Table of Contents**"
-# fix indent levels
-git add .
