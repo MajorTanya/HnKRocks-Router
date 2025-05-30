@@ -23,6 +23,7 @@ import { handleInterviews } from './handlers/handleInterviews';
 import { handleCommunityWorks } from './handlers/handleCommunityWorks';
 import { handleBlogCaptures } from './handlers/handleBlogCaptures';
 import { handleCovers } from './handlers/handleCovers';
+import { handleColourDirectPageLink } from './handlers/handleColourDirectPageLink';
 
 const router = Router();
 
@@ -47,6 +48,9 @@ router.get('/c(hapters?)?/:chapterNo/p(ages?)?/:pageNo/i', handleDirectPageLink)
 
 router.get('/minimalist', () => Response.redirect(HNK_MINIMALIST_URL, TEMPORARY_REDIRECT));
 router.get('/colou?r(ed)?', () => Response.redirect(HNK_COLOURED_URL, TEMPORARY_REDIRECT));
+
+router.get('/minimalist/c(hapters?)?/:chapterNo/p(ages?)?/:pageNo/i', handleColourDirectPageLink);
+router.get('/colou?r(ed)?/c(hapters?)?/:chapterNo/p(ages?)?/:pageNo/i', handleColourDirectPageLink);
 
 router.get('/next', handleExtraPages);
 router.get('/since', handleExtraPages);

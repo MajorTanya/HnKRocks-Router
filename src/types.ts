@@ -8,3 +8,5 @@ export type VolumeCoverEntry = {
     fullCover: string | null;
     wiki: string;
 };
+
+export type DirectPageVariant = 'minimalist' | 'coloured' | undefined;

@@ -24,7 +24,9 @@ aliases as they're functionally identical.
   - [Countdown to the next Chapter](#countdown-to-the-next-chapter)
   - [Time since the last Chapter release](#time-since-the-last-chapter-release)
   - [Houseki no Kuni (Minimalist Coloured version)](#houseki-no-kuni-minimalist-coloured-version)
+    - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page-2)
   - [Houseki no Kuni (Coloured version)](#houseki-no-kuni-coloured-version)
+    - [Page image embed (Discord, etc.) links for a specific page](#page-image-embed-discord-etc-links-for-a-specific-page-3)
   - [Fandub project](#fandub-project)
     - [Episode links for the Fandub project](#episode-links-for-the-fandub-project)
   - [Short Stories Fandub project](#short-stories-fandub-project)
@@ -253,6 +255,45 @@ fan project.
 
 Example: [https://hnk.rocks/minimalist](https://hnk.rocks/minimalist)
 
+#### Page image embed (Discord, etc.) links for a specific page
+
+<table>
+    <tr>
+        <td><code>/c/[chapterNumber]/p/[pageNumber]/i</code></td>
+        <td><code>/c/[chapterNumber]/page/[pageNumber]/i</code></td>
+        <td><code>/c/[chapterNumber]/pages/[pageNumber]/i</code></td>
+    </tr>
+    <tr>
+        <td><code>/chapter/[chapterNumber]/p/[pageNumber]/i</code></td>
+        <td><code>/chapter/[chapterNumber]/page/[pageNumber]/i</code></td>
+        <td><code>/chapter/[chapterNumber]/pages/[pageNumber]/i</code></td>
+    </tr>
+    <tr>
+        <td><code>/chapters/[chapterNumber]/p/[pageNumber]/i</code></td>
+        <td><code>/chapters/[chapterNumber]/page/[pageNumber]/i</code></td>
+        <td><code>/chapters/[chapterNumber]/pages/[pageNumber]/i</code></td>
+    </tr>
+</table>
+
+Parameters:
+
+- `[chapterNumber]` - integers or decimals (don't add the brackets)
+- `[pageNumber]` - integers (don't add the brackets)
+
+Provides a specially formatted HTML response which will be rendered as an image embed of the specified page number.
+
+The route table above may look complicated but all it is showing is that `chapters` can be replaced with `chapter` or
+even just `c` in the URL. The same goes for `pages`, which can be replaced with `page` or even just `p`. The variants
+for each can be combined as desired (for example, you can use `chapter` and `p` together in the same URL.)
+
+*Requires providing a chapter and a page number.*
+
+Example: [https://hnk.rocks/minimalist/chapter/1/page/2/i](https://hnk.rocks/minimalist/chapter/1/page/2/i)
+
+**Please note**: There are no [chapter links](#chapter-links) or
+[chapter page links](#page-links-for-a-specific-chapter) available for this version. Only the full links for the page
+image embedding are supported.
+
 ---
 
 ### Houseki no Kuni (Coloured version)
@@ -271,6 +312,45 @@ Redirects to the MangaDex title page for the
 project.
 
 Example: [https://hnk.rocks/colour](https://hnk.rocks/colour)
+
+#### Page image embed (Discord, etc.) links for a specific page
+
+<table>
+    <tr>
+        <td><code>/c/[chapterNumber]/p/[pageNumber]/i</code></td>
+        <td><code>/c/[chapterNumber]/page/[pageNumber]/i</code></td>
+        <td><code>/c/[chapterNumber]/pages/[pageNumber]/i</code></td>
+    </tr>
+    <tr>
+        <td><code>/chapter/[chapterNumber]/p/[pageNumber]/i</code></td>
+        <td><code>/chapter/[chapterNumber]/page/[pageNumber]/i</code></td>
+        <td><code>/chapter/[chapterNumber]/pages/[pageNumber]/i</code></td>
+    </tr>
+    <tr>
+        <td><code>/chapters/[chapterNumber]/p/[pageNumber]/i</code></td>
+        <td><code>/chapters/[chapterNumber]/page/[pageNumber]/i</code></td>
+        <td><code>/chapters/[chapterNumber]/pages/[pageNumber]/i</code></td>
+    </tr>
+</table>
+
+Parameters:
+
+- `[chapterNumber]` - integers or decimals (don't add the brackets)
+- `[pageNumber]` - integers (don't add the brackets)
+
+Provides a specially formatted HTML response which will be rendered as an image embed of the specified page number.
+
+The route table above may look complicated but all it is showing is that `chapters` can be replaced with `chapter` or
+even just `c` in the URL. The same goes for `pages`, which can be replaced with `page` or even just `p`. The variants
+for each can be combined as desired (for example, you can use `chapter` and `p` together in the same URL.)
+
+*Requires providing a chapter and a page number.*
+
+Example: [https://hnk.rocks/coloured/chapter/1/page/2/i](https://hnk.rocks/coloured/chapter/1/page/2/i)
+
+**Please note**: There are no [chapter links](#chapter-links) or
+[chapter page links](#page-links-for-a-specific-chapter) available for this version. Only the full links for the page
+image embedding are supported.
 
 ---
 
