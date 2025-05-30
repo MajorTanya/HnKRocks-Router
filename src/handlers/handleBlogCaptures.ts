@@ -10,7 +10,6 @@ import {
 import { TEMPORARY_REDIRECT } from '../util/redirects';
 
 export const handleBlogCaptures = async (request: IRequestStrict): Promise<Response> => {
-    console.log(request.params);
     if (request.params == undefined) return redirectToHnKTitlePage();
     const captureParam = request.params.blogCapture;
     if (captureParam === '') return redirectToHnKTitlePage();
