@@ -9,7 +9,14 @@
  */
 
 import { Router } from 'itty-router/Router';
-import { ABOUT_URL, FEEDBACK_URL, HNK_COLOURED_URL, HNK_MINIMALIST_URL, USELESS_PHOS_URL } from './constants';
+import {
+    ABOUT_URL,
+    CHANGELOG_URL,
+    FEEDBACK_URL,
+    HNK_COLOURED_URL,
+    HNK_MINIMALIST_URL,
+    USELESS_PHOS_URL
+} from './constants';
 import { handleChapterNo, handleLatestChapter, redirectToHnKTitlePage } from './handlers/handleChapters';
 import { handleDirectPageLink, handleLatestChapterDirectPageLink } from './handlers/handleDirectPages';
 import { handleExtraPages } from './handlers/handleExtraPages';
@@ -31,6 +38,7 @@ const router = Router();
 router.get('/uselessphos', () => Response.redirect(USELESS_PHOS_URL, PERMANENT_REDIRECT));
 router.get('/feedback', () => Response.redirect(FEEDBACK_URL, TEMPORARY_REDIRECT));
 router.get('/about', () => Response.redirect(ABOUT_URL, TEMPORARY_REDIRECT));
+router.get('/changelog', () => Response.redirect(CHANGELOG_URL, TEMPORARY_REDIRECT));
 
 // shim deprecated links
 router.get(SHIMS.CO_INTERVIEW.OLD, () => Response.redirect(SHIMS.CO_INTERVIEW.NEW, PERMANENT_REDIRECT));

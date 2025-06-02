@@ -43,6 +43,7 @@ export const BLOG_LAST_CAPTURE = 'https://web.archive.org/web/20221204144528/htt
 
 // Extras
 export const ABOUT_URL = 'https://majortanya.github.io/HnKRocks-Router/' as const;
+export const CHANGELOG_URL = 'https://majortanya.github.io/HnKRocks-Router/CHANGELOG' as const;
 export const EXTRA_PAGES_HOSTNAME = 'hnkrocks-extra-pages-9i8.pages.dev' as const;
 export const FEEDBACK_URL = 'https://forms.gle/QRGGriFizperPnZM6' as const;
 export const SUBMISSION_LOGIN_URL = 'https://new.hnk.rocks/' as const;

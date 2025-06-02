@@ -70,6 +70,7 @@ aliases as they're functionally identical.
   - [Overview over all available Redirects](#overview-over-all-available-redirects)
   - [The `uselessphos` Discord emote](#the-uselessphos-discord-emote)
   - [Feedback form](#feedback-form)
+  - [Changelog](#changelog)
 - [Technical & Protected Routes](#technical--protected-routes)
   - [oEmbed Route](#oembed-route)
   - [Updating `/latest`, `/since`, and `/next`](#updating-latest-since-and-next)
@@ -1076,6 +1077,19 @@ Redirects to a [Google Form to provide feedback and bug reports about HnK.rocks]
 
 Usage: [https://hnk.rocks/feedback](https://hnk.rocks/feedback)
 
+---
+
+### Changelog
+
+<table>
+    <tr>
+        <td><code>/changelog</code></td>
+    </tr>
+</table>
+
+Redirects to the [Changelog](https://majortanya.github.io/HnKRocks-Router/CHANGELOG).
+
+Usage: [https://hnk.rocks/changelog](https://hnk.rocks/changelog)
 
 ---
 
@@ -1107,5 +1121,4 @@ Protected Route. Used to add new chapter links and to update the `/latest`, `/si
 hnk.rocks made by `@majortanya` on Discord. Entire router source code available on the
 [GitHub repository](https://github.com/MajorTanya/HnKRocks-Router).
 
-You can find the list of changes by version and date in the
-[Changelog file in the GitHub repository](https://github.com/MajorTanya/HnKRocks-Router/blob/main/CHANGELOG.md).
+You can find the list of changes by version and date in the [Changelog](https://hnk.rocks/changelog).
