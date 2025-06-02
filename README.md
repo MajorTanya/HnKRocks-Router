@@ -1106,3 +1106,6 @@ Protected Route. Used to add new chapter links and to update the `/latest`, `/si
 
 hnk.rocks made by `@majortanya` on Discord. Entire router source code available on the
 [GitHub repository](https://github.com/MajorTanya/HnKRocks-Router).
+
+You can find the list of changes by version and date in the
+[Changelog file in the GitHub repository](https://github.com/MajorTanya/HnKRocks-Router/blob/main/CHANGELOG.md).

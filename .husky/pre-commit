@@ -1,1 +1,2 @@
 doctoc README.md --title "**Table of Contents**"
+doctoc CHANGELOG.md --notitle
