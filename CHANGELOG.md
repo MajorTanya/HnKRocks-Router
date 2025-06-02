@@ -97,8 +97,6 @@
 
 # v2.28.0 (2025-06-01)
 
-- 
-
 ## Added Routes
 
 - `/changelog`
