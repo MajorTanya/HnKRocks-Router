@@ -4,6 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [v2.28.1 (2025-06-14)](#v2281-2025-06-14)
 - [v2.28.0 (2025-06-01)](#v2280-2025-06-01)
   - [Added Routes](#added-routes)
 - [v2.27.1 (2025-06-01)](#v2271-2025-06-01)
@@ -94,6 +95,11 @@
   - [Added Routes](#added-routes-25)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# v2.28.1 (2025-06-14)
+
+- Fixed listing for /other/blog/hnk-announced not existing
+  - Added `hnk-announced` as an alias and documented the actual previous alias `hnk-announcement`
 
 # v2.28.0 (2025-06-01)
 

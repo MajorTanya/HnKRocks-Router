@@ -17,6 +17,7 @@ export const handleBlogCaptures = async (request: IRequestStrict): Promise<Respo
         // HnK related
         case 'hnk-revived':
         case 'hnk-announcement':
+        case 'hnk-announced':
             return Response.redirect(BLOG_HNK_REVIVED, TEMPORARY_REDIRECT);
         case 'hnk-pv-posted':
             return Response.redirect(BLOG_PV_POSTED, TEMPORARY_REDIRECT);

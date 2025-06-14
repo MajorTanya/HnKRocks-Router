@@ -708,7 +708,7 @@ curious are encouraged to take a look by navigating through the timeline shown a
 
 **Available Blog Captures**:
 
-- `/hnk-revived` \| `/hnk-announced`
+- `/hnk-revived` \| `/hnk-announced` \| `/hnk-announcement`
   - Haruko Ichikawa announcing the revival of Houseki no Kuni as a series in the Afternoon monthly magazine
     - Example: [https://hnk.rocks/other/blog/hnk-revived](https://hnk.rocks/other/blog/hnk-revived)
 - `/hnk-pv-posted`
