@@ -5,7 +5,7 @@
     "itty-router": "^5.0.22"
   },
   "devDependencies": {
-    "@types/node": "^22.18.1",
+    "@types/node": "^22.18.8",
     "doctoc": "^2.2.1",
     "husky": "^9.1.7",
     "is-ci": "^4.1.0",
