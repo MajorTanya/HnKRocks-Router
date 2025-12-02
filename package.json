@@ -1,24 +1,24 @@
 {
-  "name": "hnkrocks-chapter-router",
-  "version": "2.28.1",
-  "dependencies": {
-    "itty-router": "^5.0.22"
-  },
-  "devDependencies": {
-    "@types/node": "^22.19.0",
-    "doctoc": "^2.2.1",
-    "husky": "^9.1.7",
-    "is-ci": "^4.1.0",
-    "prettier": "^3.6.2",
-    "typescript": "^5.9.3",
-    "wrangler": "^4.46.0"
-  },
-  "private": true,
-  "scripts": {
-    "start": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "format": "prettier --write src/**/*.{ts,js,json}",
-    "prepare": "is-ci || husky",
-    "cf-typegen": "wrangler types"
-  }
+    "name": "hnkrocks-chapter-router",
+    "version": "2.28.1",
+    "dependencies": {
+        "itty-router": "^5.0.22"
+    },
+    "devDependencies": {
+        "@types/node": "^22.19.0",
+        "doctoc": "^2.2.1",
+        "husky": "^9.1.7",
+        "is-ci": "^4.1.0",
+        "prettier": "^3.6.2",
+        "typescript": "^5.9.3",
+        "wrangler": "^4.46.0"
+    },
+    "private": true,
+    "scripts": {
+        "start": "wrangler dev",
+        "deploy": "wrangler deploy",
+        "format": "prettier --write src/**/*.{ts,js,json}",
+        "prepare": "is-ci || husky",
+        "cf-typegen": "wrangler types"
+    }
 }
