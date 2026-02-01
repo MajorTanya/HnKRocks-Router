@@ -101,6 +101,8 @@
 - Fixed listing for /other/blog/hnk-announced not existing
   - Added `hnk-announced` as an alias and documented the actual previous alias `hnk-announcement`
 
+---
+
 # v2.28.0 (2025-06-01)
 
 ## Added Routes
