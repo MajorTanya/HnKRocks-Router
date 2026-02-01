@@ -11,7 +11,7 @@
         "is-ci": "^4.1.0",
         "prettier": "^3.8.1",
         "typescript": "^5.9.3",
-        "wrangler": "^4.60.0"
+        "wrangler": "^4.61.1"
     },
     "private": true,
     "scripts": {
