@@ -6,9 +6,6 @@
     },
     "devDependencies": {
         "@types/node": "^22.19.15",
-        "doctoc": "^2.3.0",
-        "husky": "^9.1.7",
-        "is-ci": "^4.1.0",
         "prettier": "^3.8.1",
         "typescript": "^5.9.3",
         "wrangler": "^4.72.0"
@@ -18,7 +15,6 @@
         "start": "wrangler dev",
         "deploy": "wrangler deploy",
         "format": "prettier --write src/**/*.{ts,js,json}",
-        "prepare": "is-ci || husky",
         "cf-typegen": "wrangler types"
     }
 }
