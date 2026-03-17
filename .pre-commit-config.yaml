@@ -9,11 +9,14 @@ repos:
       - id: end-of-file-fixer
         exclude: ^worker-configuration.d.ts$
       - id: check-json
+        exclude: ^tsconfig.json$
 
   - repo: https://github.com/rbubley/mirrors-prettier
     rev: v3.8.1
     hooks:
       - id: prettier
+        types: [ ts ]
+        exclude: ^worker-configuration.d.ts$
 
   - repo: https://github.com/thlorenz/doctoc
     rev: v2.3.0
