@@ -48,6 +48,7 @@ aliases as they're functionally identical.
     - [Drone Show for Volume 13 Release Countdown (2024-11-20)](#drone-show-for-volume-13-release-countdown-2024-11-20)
     - [First Volume Commemorative PV (2013-07-19)](#first-volume-commemorative-pv-2013-07-19)
     - [Haruko Ichikawa's Defunct Blog](#haruko-ichikawas-defunct-blog)
+    - [2026 Artbook PV](#2026-artbook-pv)
   - [Works unrelated to Houseki no Kuni:](#works-unrelated-to-houseki-no-kuni)
     - ["25 Hour Vacation"](#25-hour-vacation)
     - [Haruko Ichikawa Anthology](#haruko-ichikawa-anthology)
@@ -726,6 +727,22 @@ curious are encouraged to take a look by navigating through the timeline shown a
   - Haruko Ichikawa announcing that volume 6 will be on sale. Accompanied by an illustration of Hemimorphite,
     Watermelon Tourmaline, Cairngorm, Sphene, and Peridot promoting the BAGGU collaboration extra.
     - Example: [https://hnk.rocks/other/blog/hnk-vol6-promo-posted](https://hnk.rocks/other/blog/hnk-vol6-promo-posted)
+
+---
+
+#### 2026 Artbook PV
+
+<table>
+    <tr>
+        <td><code>comet-artbook-pv</code></td>
+        <td><code>2026-pv</code></td>
+    </tr>
+</table>
+
+Redirects to [the animated PV](https://www.youtube.com/watch?v=fA0_ozyE7U4) released to promote the release of the
+second artbook in 2026.
+
+Example: [https://hnk.rocks/other/comet-artbook-pv](https://hnk.rocks/other/comet-artbook-pv)
 
 ---
 
