@@ -8,7 +8,7 @@
         "@types/node": "^22.19.15",
         "prettier": "^3.8.1",
         "typescript": "^5.9.3",
-        "wrangler": "^4.72.0"
+        "wrangler": "^4.75.0"
     },
     "private": true,
     "scripts": {
