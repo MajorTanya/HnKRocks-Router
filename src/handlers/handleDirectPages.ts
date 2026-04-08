@@ -1,6 +1,7 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { redirectToHnKTitlePage } from './handleChapters';
-import { generateDirectPageResponse } from '../util/direct_page_response';
+import { redirectToHnKTitlePage } from './handleChapters.js';
+import { generateDirectPageResponse } from '../util/direct_page_response.js';
 
 export const handleDirectPageLink = async (request: IRequestStrict, env: Env): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();

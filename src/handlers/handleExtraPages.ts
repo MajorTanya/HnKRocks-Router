@@ -1,5 +1,6 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { EXTRA_PAGES_HOSTNAME } from '../constants';
+import { EXTRA_PAGES_HOSTNAME } from '../constants.js';
 
 export const handleExtraPages = async (request: IRequestStrict): Promise<Response> => {
     const clonedUrl = new URL(request.url);

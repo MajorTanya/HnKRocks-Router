@@ -1,5 +1,5 @@
-import { HNK_COLOURED_URL, HNK_MINIMALIST_URL, OEMBED_PAGE_DIRECT } from '../constants';
-import type { DirectPageVariant } from '../types';
+import { HNK_COLOURED_URL, HNK_MINIMALIST_URL, OEMBED_PAGE_DIRECT } from '../constants.js';
+import type { DirectPageVariant } from '../types.js';
 
 // we only check for a maximum of 5 versions of a chapter ([first upload] > v2 > v3 > v4 > v5 > give up)
 const MAX_SUPPORTED_VERSION = 5 as const;

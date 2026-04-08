@@ -1,7 +1,8 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { redirectToHnKTitlePage } from './handleChapters';
-import { COVER_MAP, type CoverMapType, OEMBED_VOL_COVER } from '../constants';
-import { VolumeCoverEntry } from '../types';
+import { redirectToHnKTitlePage } from './handleChapters.js';
+import { COVER_MAP, type CoverMapType, OEMBED_VOL_COVER } from '../constants.js';
+import { VolumeCoverEntry } from '../types.js';
 
 const volumeMapper = new Proxy(COVER_MAP as CoverMapType, {
     get: (target, prop: string) => (prop in target ? target[prop] : null)

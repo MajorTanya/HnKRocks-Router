@@ -1,6 +1,7 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { SHORT_STORY_FANDUB_ON_PANDORA, SHORT_STORY_FANDUB_PLAYLIST } from '../constants';
-import { TEMPORARY_REDIRECT } from '../util/redirects';
+import { SHORT_STORY_FANDUB_ON_PANDORA, SHORT_STORY_FANDUB_PLAYLIST } from '../constants.js';
+import { TEMPORARY_REDIRECT } from '../util/redirects.js';
 
 export const redirectToShortStoryFandubPlaylist = () => Response.redirect(SHORT_STORY_FANDUB_PLAYLIST);
 

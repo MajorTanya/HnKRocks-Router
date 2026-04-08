@@ -1,7 +1,8 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { redirectToHnKTitlePage } from './handleChapters';
-import { WEIGHT_SPREADSHEET, WEIGHT_TUMBLR } from '../constants';
-import { TEMPORARY_REDIRECT } from '../util/redirects';
+import { redirectToHnKTitlePage } from './handleChapters.js';
+import { WEIGHT_SPREADSHEET, WEIGHT_TUMBLR } from '../constants.js';
+import { TEMPORARY_REDIRECT } from '../util/redirects.js';
 
 export const handleCommunityWorks = async (request: IRequestStrict): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();

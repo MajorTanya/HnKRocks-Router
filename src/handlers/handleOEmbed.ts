@@ -1,5 +1,6 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { DEFAULT_JSON_HEADERS, OEMBED_BASE_RESPONSE, OEMBED_PAGE_DIRECT, OEMBED_VOL_COVER } from '../constants';
+import { DEFAULT_JSON_HEADERS, OEMBED_BASE_RESPONSE, OEMBED_PAGE_DIRECT, OEMBED_VOL_COVER } from '../constants.js';
 
 type OEmbedProvider = { provider_name: string; provider_url: string } | Record<string, never>;
 

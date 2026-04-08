@@ -1,13 +1,14 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { redirectToHnKTitlePage } from './handleChapters';
+import { redirectToHnKTitlePage } from './handleChapters.js';
 import {
     CURRENT_OBSESSION_2015_INTERVIEW,
     ENTERTAINMENT_WEEK_2016_INTERVIEW,
     EUREKA_2010_INTERVIEW,
     KONO_MANGA_2014_INTERVIEW_PT_1,
     KONO_MANGA_2014_INTERVIEW_PT_2
-} from '../constants';
-import { TEMPORARY_REDIRECT } from '../util/redirects';
+} from '../constants.js';
+import { TEMPORARY_REDIRECT } from '../util/redirects.js';
 
 export const handleInterviews = async (request: IRequestStrict): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();

@@ -1,5 +1,5 @@
-import { SUBMISSION_LOGIN_URL } from '../constants';
-import type { Shim } from '../types';
+import { SUBMISSION_LOGIN_URL } from '../constants.js';
+import type { Shim } from '../types.js';
 
 export const SHIMS = {
     CO_INTERVIEW: {

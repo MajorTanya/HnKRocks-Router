@@ -16,21 +16,21 @@ import {
     HNK_COLOURED_URL,
     HNK_MINIMALIST_URL,
     USELESS_PHOS_URL
-} from './constants';
-import { handleChapterNo, handleLatestChapter, redirectToHnKTitlePage } from './handlers/handleChapters';
-import { handleDirectPageLink, handleLatestChapterDirectPageLink } from './handlers/handleDirectPages';
-import { handleExtraPages } from './handlers/handleExtraPages';
-import { handleFandubEpisodeNo, redirectToFandubPlaylist } from './handlers/handleFandub';
-import { handleOEmbed } from './handlers/handleOEmbed';
-import { handleOtherWorks } from './handlers/handleOtherWorks';
-import { handleShortStoriesFandub, redirectToShortStoryFandubPlaylist } from './handlers/handleShortStoriesFandub';
-import { MOVED_PERMANENTLY, PERMANENT_REDIRECT, TEMPORARY_REDIRECT } from './util/redirects';
-import { SHIMS } from './util/shims';
-import { handleInterviews } from './handlers/handleInterviews';
-import { handleCommunityWorks } from './handlers/handleCommunityWorks';
-import { handleBlogCaptures } from './handlers/handleBlogCaptures';
-import { handleCovers } from './handlers/handleCovers';
-import { handleColourDirectPageLink } from './handlers/handleColourDirectPageLink';
+} from './constants.js';
+import { handleChapterNo, handleLatestChapter, redirectToHnKTitlePage } from './handlers/handleChapters.js';
+import { handleDirectPageLink, handleLatestChapterDirectPageLink } from './handlers/handleDirectPages.js';
+import { handleExtraPages } from './handlers/handleExtraPages.js';
+import { handleFandubEpisodeNo, redirectToFandubPlaylist } from './handlers/handleFandub.js';
+import { handleOEmbed } from './handlers/handleOEmbed.js';
+import { handleOtherWorks } from './handlers/handleOtherWorks.js';
+import { handleShortStoriesFandub, redirectToShortStoryFandubPlaylist } from './handlers/handleShortStoriesFandub.js';
+import { MOVED_PERMANENTLY, PERMANENT_REDIRECT, TEMPORARY_REDIRECT } from './util/redirects.js';
+import { SHIMS } from './util/shims.js';
+import { handleInterviews } from './handlers/handleInterviews.js';
+import { handleCommunityWorks } from './handlers/handleCommunityWorks.js';
+import { handleBlogCaptures } from './handlers/handleBlogCaptures.js';
+import { handleCovers } from './handlers/handleCovers.js';
+import { handleColourDirectPageLink } from './handlers/handleColourDirectPageLink.js';
 
 const router = Router();
 

@@ -1,3 +1,4 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
 import {
     BLOG_LAST_CAPTURE,
@@ -20,9 +21,9 @@ import {
     SOCIAL_CHOICE_URL,
     TSURITAMA_ILLUSTRATION_URL,
     VACANCES_URL
-} from '../constants';
-import { redirectToHnKTitlePage } from './handleChapters';
-import { TEMPORARY_REDIRECT } from '../util/redirects';
+} from '../constants.js';
+import { redirectToHnKTitlePage } from './handleChapters.js';
+import { TEMPORARY_REDIRECT } from '../util/redirects.js';
 
 export const handleOtherWorks = async (request: IRequestStrict): Promise<Response> => {
     if (request.params == undefined) return redirectToHnKTitlePage();

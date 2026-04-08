@@ -1,5 +1,6 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { FANDUB_EP_01, FANDUB_EP_02, FANDUB_PLAYLIST } from '../constants';
+import { FANDUB_EP_01, FANDUB_EP_02, FANDUB_PLAYLIST } from '../constants.js';
 
 export const redirectToFandubPlaylist = () => Response.redirect(FANDUB_PLAYLIST);
 

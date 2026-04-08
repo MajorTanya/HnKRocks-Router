@@ -1,9 +1,10 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { redirectToHnKTitlePage } from './handleChapters';
-import { generateDirectPageResponse } from '../util/direct_page_response';
-import { HNK_COLOURED_URL, HNK_MINIMALIST_URL } from '../constants';
-import { TEMPORARY_REDIRECT } from '../util/redirects';
-import type { DirectPageVariant } from '../types';
+import { redirectToHnKTitlePage } from './handleChapters.js';
+import { generateDirectPageResponse } from '../util/direct_page_response.js';
+import { HNK_COLOURED_URL, HNK_MINIMALIST_URL } from '../constants.js';
+import { TEMPORARY_REDIRECT } from '../util/redirects.js';
+import type { DirectPageVariant } from '../types.js';
 
 export const handleColourDirectPageLink = async (request: IRequestStrict, env: Env): Promise<Response> => {
     // explicitly NOT regexp!

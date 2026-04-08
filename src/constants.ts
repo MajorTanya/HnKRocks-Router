@@ -1,4 +1,4 @@
-import type { VolumeCoverEntry } from './types';
+import type { VolumeCoverEntry } from './types.js';
 
 export const DEFAULT_JSON_HEADERS = { headers: { 'content-type': 'application/json;charset=UTF-8' } } as const;
 export const ZERO_DECIMAL_PATTERN = /\d+\.0/;

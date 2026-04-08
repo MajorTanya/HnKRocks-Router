@@ -1,6 +1,7 @@
+// @ts-expect-error TS2307
 import type { IRequestStrict } from 'itty-router/types/IRequestStrict';
-import { HNK_TITLE_URL, ZERO_DECIMAL_PATTERN } from '../constants';
-import { MOVED_PERMANENTLY, TEMPORARY_REDIRECT } from '../util/redirects';
+import { HNK_TITLE_URL, ZERO_DECIMAL_PATTERN } from '../constants.js';
+import { MOVED_PERMANENTLY, TEMPORARY_REDIRECT } from '../util/redirects.js';
 
 export const redirectToHnKTitlePage = () => Response.redirect(HNK_TITLE_URL, MOVED_PERMANENTLY);
 
