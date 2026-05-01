@@ -4,6 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [v2.29.1 (2026-05-01)](#v2291-2026-05-01)
 - [v2.29.0 (2026-03-17)](#v2290-2026-03-17)
   - [Added Routes](#added-routes)
 - [v2.28.1 (2025-06-14)](#v2281-2025-06-14)
@@ -98,6 +99,12 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+# v2.29.1 (2026-05-01)
+
+- Switch to Node.js v24.
+
+---
+
 # v2.29.0 (2026-03-17)
 
 ## Added Routes
@@ -105,6 +112,8 @@
 - `/comet-artbook-pv` and `/2026-pv`
   - Redirects to [the animated PV](https://www.youtube.com/watch?v=fA0_ozyE7U4) released to promote the release of the
     second artbook in 2026.
+
+---
 
 # v2.28.1 (2025-06-14)
 
