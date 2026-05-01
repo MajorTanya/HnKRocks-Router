@@ -24,3 +24,13 @@ repos:
       - id: doctoc
         args: [ --title, '**Table of Contents**' ]
         files: ^(CHANGELOG|README).md$
+
+  - repo: local
+    hooks:
+      - id: wrangler-types
+        name: Regenerate wrangler types
+        language: unsupported
+        entry: wrangler types
+        files: ^package.json|wrangler.toml$
+        pass_filenames: false
+        require_serial: true
