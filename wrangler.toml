@@ -13,4 +13,4 @@ bucket_name = 'hnkrocks-chapter-pages'
 preview_bucket_name = 'hnkrocks-chapter-pages'
 
 [vars]
-NODE_VERSION = "22"
+NODE_VERSION = "24"
