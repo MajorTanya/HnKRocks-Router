@@ -5,10 +5,10 @@
         "itty-router": "^5.0.23"
     },
     "devDependencies": {
-        "@types/node": "^24.12.2",
+        "@types/node": "^24.12.4",
         "prettier": "^3.8.3",
         "typescript": "^6.0.3",
-        "wrangler": "^4.87.0"
+        "wrangler": "^4.97.0"
     },
     "private": true,
     "scripts": {
