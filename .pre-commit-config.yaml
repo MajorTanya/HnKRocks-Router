@@ -30,7 +30,7 @@ repos:
       - id: wrangler-types
         name: Regenerate wrangler types
         language: unsupported
-        entry: wrangler types
+        entry: npm run cf-typegen
         files: ^package.json|wrangler.toml$
         pass_filenames: false
         require_serial: true
